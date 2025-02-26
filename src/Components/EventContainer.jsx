@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import VanillaTilt from "vanilla-tilt";
 // import eventPoster from "../assets/symposium/OverallPoster.jpeg";
-import eventPoster from "../assets/symposium/overallPoster.jpg"
+import eventPoster from "../assets/symposium/overallPoster.jpg";
 import EventButton from "./EventButton";
 
 const EventContainer = () => {
@@ -19,7 +19,9 @@ const EventContainer = () => {
   }, []);
 
   return (
-    <div className="px-5 min-h-screen flex flex-col justify-start items-center"> {/* Added padding on both sides */}
+    <div className="px-5 min-h-screen flex flex-col justify-start items-center">
+      {" "}
+      {/* Added padding on both sides */}
       <div className="flex justify-center mt-11 mb-10">
         <div
           // ref={tiltRef}
@@ -34,10 +36,10 @@ const EventContainer = () => {
       </div>
       <div className="lg:gap-10 gap-5 flex flex-col lg:pb-20 sm:flex-row justify-center items-center animate__animated animate__fadeInUp">
         <Link to="/track1">
-          <EventButton label="Track I" />
+          <EventButton label="On Stage" />
         </Link>
         <Link to="/track2">
-          <EventButton label="Track II" />
+          <EventButton label="Off Stage" />
         </Link>
       </div>
     </div>

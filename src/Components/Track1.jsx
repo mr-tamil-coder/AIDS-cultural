@@ -3,7 +3,7 @@ import "./animation.css"; // Import the CSS for the cubes animation
 import VanillaTilt from "vanilla-tilt";
 import Image from "../utils/Img/track1.jpg";
 
-const Track1 = () => {
+const track1 = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ const Track1 = () => {
           {/* Text Section */}
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
             <p>
-            Technovanza is the epitome of innovation and collaboration,
+              Technovanza is the epitome of innovation and collaboration,
               designed to foster creativity, ignite ideas, and push the
               boundaries of technology. With a focus on modern advancements, it
               stands as a beacon for tech enthusiasts, paving the way for a
@@ -61,4 +61,4 @@ const Track1 = () => {
   );
 };
 
-export default Track1;
+export default track1;

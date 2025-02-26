@@ -3,7 +3,7 @@ import 'animate.css';
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2025-02-15T00:00:00").getTime();
+    const eventDate = new Date("2025-03-21T00:00:00").getTime();
     const currentTime = new Date().getTime();
     const difference = eventDate - currentTime;
 
