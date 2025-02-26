@@ -5,38 +5,38 @@ import "../text.css";
 const Contact = () => {
   const tracks = [
     {
-      trackName: "TRACK I",
+      // trackName: "TRACK I",
       coordinators: [
         {
-          name: "Amrithavarshini S",
+          name: "Kanish Kumar P",
           designation: "Student Coordinator",
-          phone: "+919150829797",
+          phone: "+91 9940205575",
         },
         {
-          name: "Gowtham S",
+          name: "Siva Ram S",
           designation: "Student Coordinator",
-          phone: "+919025896912",
+          phone: "+91 7598704942",
         //   email: "jane@example.com",
         },
       ],
     },
-    {
-      trackName: "TRACK II",
-      coordinators: [
-        {
-          name: "Abdul Hameed E H",
-          designation: "Student Coordinator",
-          phone: "+918056747791",
-        //   email: "alice@example.com",
-        },
-        {
-          name: "Chandra Sekar K",
-          designation: "Student Coordinator",
-          phone: "+918122116830",
-        //   email: "bob@example.com",
-        },
-      ],
-    },
+    // {
+    //   trackName: "TRACK II",
+    //   coordinators: [
+    //     {
+    //       name: "Abdul Hameed E H",
+    //       designation: "Student Coordinator",
+    //       phone: "+918056747791",
+    //     //   email: "alice@example.com",
+    //     },
+    //     {
+    //       name: "Chandra Sekar K",
+    //       designation: "Student Coordinator",
+    //       phone: "+918122116830",
+    //     //   email: "bob@example.com",
+    //     },
+    //   ],
+    // },
   ];
 
   return (
@@ -48,9 +48,9 @@ const Contact = () => {
       <div className="tracks-container flex flex-col gap-10">
         {tracks.map((track, index) => (
           <div key={index} className="track">
-            <h2 className="text-2xl font-extrabold text-center mb-6">
+            {/* <h2 className="text-2xl font-extrabold text-center mb-6">
               {track.trackName}
-            </h2>
+            </h2> */}
             <div className="coordinators-column flex flex-wrap justify-center gap-20">
               {track.coordinators.map((coordinator, idx) => (
                 <div key={idx} className="anim-container w-full sm:w-1/2 lg:w-1/3">

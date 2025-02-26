@@ -7,7 +7,7 @@ const Teams = () => {
       <div className="container mx-auto flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
         {/* Left Section */}
         <div className="text-sm text-center sm:text-left px-2 sm:px-10">
-          &copy; {new Date().getFullYear()} Technovanza<sup className="text-sup">TM</sup> All rights reserved.
+          &copy; {new Date().getFullYear()} NCSE <sup className="text-sup">TM</sup> All rights reserved.
         </div>
 
         {/* <div className="text-sm">
@@ -15,7 +15,7 @@ const Teams = () => {
         </div> */}
 
         <div className="text-sm text-center sm:text-left">
-          Developed by <Link to="/about"><span className="font-bold">Technovanza Team</span></Link>
+          Developed by <Link to="/about"><span className="font-bold">NCSE Team</span></Link>
         </div>
       </div>
     </footer>

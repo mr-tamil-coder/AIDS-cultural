@@ -57,9 +57,9 @@ const Body = () => {
       {/* <HomeEventDetails />
       <InfoSections />
       <TeamCarousel /> */}
-      <OverallGuest />
+      {/* <OverallGuest />
       <Carousel1 />
-      <Carousel />
+      <Carousel /> */}
       <Faq />
       {/* <MediaSection />
       <ContactUs />
