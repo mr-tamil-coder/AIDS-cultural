@@ -28,7 +28,7 @@ const NewAbout = () => {
 
         {/* Title */}
         <h2 className="text-3xl md:text-5xl font-aboutfont tracking-widest text-left">
-          TECHNOVANZA 2024-'25
+        EXCELSIOR'25
         </h2>
 
         {/* Content Section */}
@@ -36,16 +36,13 @@ const NewAbout = () => {
           {/* Text Section */}
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
             <p>
-              Technovanza is the epitome of innovation and collaboration,
-              designed to foster creativity, ignite ideas, and push the
-              boundaries of technology. With a focus on modern advancements, it
-              stands as a beacon for tech enthusiasts, paving the way for a
-              future driven by knowledge and passion.
+           
+      Excelsior'25 is the epitome of innovation and collaboration, designed to foster creativity, ignite ideas, and push the boundaries of technology. With a focus on modern advancements, it stands as a beacon for tech enthusiasts, paving the way for a future driven by knowledge and passion.
             </p>
             <p className="mt-4">
-              Join us in this journey where vision meets reality, and together,
-              we shape the technology of tomorrow. Technovanza is not just an
-              event; it's an experience that leaves a lasting impression.
+            <p className="mt-4">
+      Excelsior is a cultural event of Jerusalem College that celebrates the vibrant diversity and rich heritage of our community. It offers a platform for students to showcase their talents in various forms of art, music, dance, and drama. 
+    </p>
             </p>
           </div>
 
