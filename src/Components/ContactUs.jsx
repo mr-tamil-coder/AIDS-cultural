@@ -83,10 +83,10 @@ const ContactUs = () => {
       />
     </svg>
     <a
-      href="mailto:symposium2024@jerusalemengg.ac.in"
+      href="mailto:excelsior@jerusalemengg.ac.in"
       className="text-sm md:text-lg hover:underline"
     >
-      symposium2024@jerusalemengg.ac.in
+      excelsior@jerusalemengg.ac.in
     </a>
   </div>
 </div>
