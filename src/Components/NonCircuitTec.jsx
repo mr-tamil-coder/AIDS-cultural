@@ -72,7 +72,7 @@ const NonCircuitTec = () => {
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
-        Technical Events
+        ONSTAGE  Events
       </h3>
 
       <div>

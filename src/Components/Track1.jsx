@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./animation.css"; // Import the CSS for the cubes animation
 import VanillaTilt from "vanilla-tilt";
-import Image from "../utils/Img/track1.jpg";
+import Image from "../utils/Img/";
 
 const track1 = () => {
   const tiltRef = useRef(null);

@@ -62,7 +62,7 @@ const NonCircuitnTech = () => {
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
-        Non Technical Events
+        Online Events
       </h3>
 
       <div>

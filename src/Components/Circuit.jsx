@@ -4,13 +4,13 @@ import CircuitTec from "./CircuitTec";
 import EventButton from "./EventButton";
 import { Link } from "react-router-dom";
 import TrackInfo from "./TrackInfo";
-import img from "../assets/symposium/OverallPoster.jpeg";
+import img from "../assets/symposium/OverallPoster.jpg";
 import "animate.css";
 const Circuit = () => {
   return (
     <div>
       <TrackInfo
-        label="TRACK II"
+        label="OFF STAGE "
         Image={img}
         Description="Registration for Technovanza is now open! Secure your spot today and
             be part of an event that celebrates innovation and collaboration.
@@ -21,7 +21,7 @@ const Circuit = () => {
       <NonCircuitnTech />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeN-2jLB-1VDYrKwieEQC7grGuG-QyDJXsfqIpr3YAx-cbtXA/viewform"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSccABdnuMlfiHB0bUyGP0XUXxeLaHJuFR7ao9seUTDPlmyvjw/formResponse"
           target="_blank"
           rel="noopener noreferrer"
         >

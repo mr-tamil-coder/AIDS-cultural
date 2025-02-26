@@ -64,7 +64,7 @@ const CircuitTec = () => {
           textShadow: `2px 2px 15px ${color}`,
         }}
       >
-       Technical Events
+       
       </h3>
 
       <div>
