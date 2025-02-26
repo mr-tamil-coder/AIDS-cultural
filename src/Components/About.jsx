@@ -36,7 +36,7 @@ const About = () => {
           <p className="text-lg leading-relaxed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
             voluptatem asperiores modi nulla labore possimus corrupti provident
-            beatae molestiae dolorum accusantium quaerat nostrum repellat eum
+            EXCELSIOR'25 beatae molestiae dolorum accusantium quaerat nostrum repellat eum
             laboriosam veniam porro impedit iste deserunt pariatur voluptatibus
             reiciendis, consequatur laborum. Corrupti rem unde placeat.
           </p>
