@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // Hide loader after 2 seconds
-    }, 1000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, []);
