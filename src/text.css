@@ -2,21 +2,23 @@
 
 @font-face {
   font-family: 'otherfont';
-  src: url('/fonts/kanit-ExtraBold.ttf') format('truetype');
+  src: url('/fonts/Rafika.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  
+}
+
+
+@font-face {
+  font-family: 'collegefont';
+  src: url('/fonts/Game Of Squids.woff2') format('woff2'),
+       url('/fonts/Game Of Squids.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-
-@font-face {
-    font-family: 'collegefont';
-    src: url('/fonts/Game Of Squids.woff2') format('woff2'),
-         url('/fonts/Game Of Squids.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 @font-face {
   font-family: 'timerfont';
   src: url('/fonts/digital-7.ttf') format('truetype');
@@ -24,13 +26,16 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'aboutfont';
-  src: url('/fonts/Revamped.otf') format('opentype');
+  src: url('/fonts/Sinerva.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   /* font-display: swap; */
 }
+
+
 /* @font-face {
   font-family: 'faqfont';
   src: url('/fonts/Roboto-Regular.otf') format('opentype');
