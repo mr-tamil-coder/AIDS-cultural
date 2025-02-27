@@ -44,7 +44,7 @@ const Body = () => {
       <CollegeName />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp duration-500">
         <Link to="/events">
-          <EventButton label="Explore" />
+          <NeonButton label="Explore" />
         </Link>
       </div>
 

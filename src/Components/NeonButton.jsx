@@ -18,7 +18,7 @@ const NeonButton = ({ label, onClick, tooltip }) => {
         <span></span>
         {label}
       </button>
-      {isHovered && <Tooltip>{tooltip}</Tooltip>}
+      {/* {isHovered && <Tooltip>{tooltip}</Tooltip>} */}
     </StyledWrapper>
   );
 };
