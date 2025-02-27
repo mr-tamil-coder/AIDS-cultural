@@ -4,7 +4,7 @@ import CircuitTec from "./CircuitTec";
 import EventButton from "./EventButton";
 import { Link } from "react-router-dom";
 import TrackInfo from "./TrackInfo";
-import img from "../assets/symposium/OverallPoster.jpg";
+import img from "../assets/symposium/overallPoster.jpg";
 import "animate.css";
 const Circuit = () => {
   return (
