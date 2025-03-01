@@ -3,7 +3,7 @@ import 'animate.css';
 
 const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2025-03-21T00:00:00").getTime();
+    const eventDate = new Date("2025-03-20T00:00:00").getTime();
     const currentTime = new Date().getTime();
     const difference = eventDate - currentTime;
 
@@ -45,7 +45,7 @@ const CountdownTimer = () => {
       <br />
       {/* <h1>FEB 15, 2025</h1> */}
       <h1 className="text-xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-otherfont font-extrabold py-6 sm:py-3 lg:py-1 animate-pulse text-center">
-      THE BIG MOMENT IS COMING...<br /><sup className="text-sm">March 21, 2025</sup>
+ The Best Moments Await!...<br /><sup className="text-sm">March 20, 2025</sup>
       </h1>
       <div className="grid grid-cols-4 gap-4 text-center m-3">
         <div className="bg-transparent rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-out">
