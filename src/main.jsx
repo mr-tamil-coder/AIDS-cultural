@@ -39,6 +39,7 @@ import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
 import IPL from "./Components/EventDescriptions/NonTech/IplAuction.jsx";
 import Cassedete from "./Components/EventDescriptions/Track1/Cassedete.jsx";
 import TeamCarousel from "./Components/TeamCarousel.jsx";
+import Online1 from "./Components/OnlineEve.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -182,6 +183,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/team",
         element: <TeamCarousel/>,
+      },
+      {
+        path: "/OnineEvents",
+        element: <Online1/>,
       },
     ],
   },
