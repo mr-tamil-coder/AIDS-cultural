@@ -41,12 +41,11 @@ const EventContainer = () => {
         <Link to="/track2">
           <EventButton label="Off Stage" />
         </Link>
-      </div>
-      <div className="lg:gap-10 gap-5 flex flex-col lg:pb-10 sm:flex-row justify-center items-center animate__animated animate__fadeInUp">
-      <Link to="/OnineEvents">
-          <EventButton label="Online Events" />
+        <Link to="/OnineEvents">
+          <EventButton label="Online" />
         </Link>
       </div>
+     
     </div>
   );
 };

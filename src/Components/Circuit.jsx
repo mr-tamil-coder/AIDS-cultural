@@ -18,7 +18,7 @@ const Circuit = () => {
       />
 
       <CircuitTec />
-      <NonCircuitnTech />
+      {/* <NonCircuitnTech /> */}
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSccABdnuMlfiHB0bUyGP0XUXxeLaHJuFR7ao9seUTDPlmyvjw/formResponse"
