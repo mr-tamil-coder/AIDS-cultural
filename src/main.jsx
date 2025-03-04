@@ -62,6 +62,9 @@ import RecallRace from "./Components/offStage/RecallRace.jsx";
 import FirelessCookery from "./Components/offStage/FirelessCookery.jsx";
 import Drawing from "./Components/offStage/Drawing.jsx";
 import GullyCricket from "./Components/offStage/GullyCricket.jsx";
+import GroupDance from "./Components/onStage/GroupDance.jsx"
+import Adaptune from "./Components/onStage/Adaptune.jsx"
+import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx"
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -89,12 +92,16 @@ const appRouter = createBrowserRouter([
         element: <GroupTraditional />,
       },
       {
+        path: "/group-dance",
+        element: <GroupDance />,
+      },
+      {
         path: "/dumcharades",
         element: <DumCharades />,
       },
       {
         path: "/adaptune",
-        element: <DumCharades />,
+        element: <Adaptune />,
       },
       {
         path: "/adaptune",
@@ -102,7 +109,7 @@ const appRouter = createBrowserRouter([
       },  
       {
         path: "/hairstyle-showdown",
-        element: <DumCharades />,
+        element: <HairstyleShowdown />,
       }, 
       {
         path: "/vivadha-medai",
