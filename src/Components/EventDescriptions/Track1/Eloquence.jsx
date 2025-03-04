@@ -44,16 +44,20 @@ const Eloquence = () => {
         <h1>
           ✨
           <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Eloquence: Paper Presentation Competition
+🎶🎤 GROUP SINGING COMPETITION
+
+
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify">
           <p className="text-body lg:text-2xl">
-            "Eloquence" is a platform for participants to showcase their ability
-            to present ideas effectively through structured and impactful paper
-            presentations. The event emphasizes critical thinking, innovative
-            approaches, and persuasive communication.
+          🌟 Warm Greetings! 🌟
+          Get ready to captivate the audience with your musical talent! 🎵🔥 Jerusalem College of Engineering presents the Group Singing Competition—a platform to showcase your harmony, passion, and stage presence. Gather your team and let the music take center stage! 🎶💫<br/>
+          📅 DATE: 21/03/25 <br />
+          ⏰ TIME: 10:00AM <br />
+          📍 VENUE: Open Air Auditorium <br />
+
           </p>
         </section>
         <section className="text-gray-300 text-justify">
@@ -61,14 +65,13 @@ const Eloquence = () => {
             Team Size 
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>Minimum : 1 Member</li>
-            <li>Maximum : 3 Members(Only Registered!)</li>
-            
+            <li>👥 Team Size: Each group must have 5-6 members. 👫🎵</li>
+            <li>🎤Team Composition: Both men and women can perform together. 👦👧🎶</li>
           </ul>
         </section>
        
 
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Themes for Paper Submission
           </h2>
@@ -85,7 +88,7 @@ const Eloquence = () => {
             <li>Computer Vision</li>
             <li>Wireless Technology</li>
           </ul>
-        </section>
+        </section> */}
 
         {/* <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
@@ -101,20 +104,17 @@ const Eloquence = () => {
 
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Instructions to Authors
+          📜 RULES AND REGULATIONS 📜            
           </h2>
           <div>
-            <h3 className="text-subhead md:text-xl lg:text-2xl font-semibold gradient-text">
-              Abstract Format
-            </h3>
+            
             <ul className="list-disc list-inside text-body lg:text-2xl">
-              <li>Title of the paper - Times New Roman, Size: 16, Bold</li>
-              <li>Author name (Max. three) - Times New Roman, Size: 9</li>
-              <li>Affiliation - Times New Roman, Size: 8</li>
-              <li>Email ID - Times New Roman, Size: 8</li>
-              <li>
-                Abstract - Times New Roman, Size: 10, Bold, Maximum 200 words
-              </li>
+              <li>Song Selection: The lyrics must be appropriate and free from vulgarity. ❌🗣</li>
+              <li>🎼 The song duration must not exceed 4 minutes. ⏱</li>
+              <li>🎙 Only shortlisted teams will be allowed to perform on stage. ✅</li>
+              <li>🚫 Equipment Restrictions: The use of fire, glass, sharp objects, or any hazardous materials is strictly prohibited. 🔥🚫🛑</li>
+              <li>📀 Karaoke Submission: The karaoke track must be submitted at least one day before the selection process. 🎧📅</li>
+              <li>🏆 Judging Criteria: The judges' decisions are final and binding. ⚖✅</li>
             </ul>
             
             {/* <p>
@@ -130,8 +130,8 @@ const Eloquence = () => {
             </p> */}
           </div>
 
-          <div>
-            <h3 className="text-lg md:text-xl lg:text-2xl font-semibold gradient-text">
+          {/* <div> */}
+            {/* <h3 className="text-lg md:text-xl lg:text-2xl font-semibold gradient-text">
               Full Paper Format
             </h3>
             <p className="text-body lg:text-2xl">Maximum number of pages – 6</p>
@@ -142,7 +142,7 @@ const Eloquence = () => {
               <li>Result (If any)</li>
               <li>Conclusion</li>
               <li>References</li>
-            </ul>
+            </ul> */}
             {/* <p className="text-body lg:text-2xl">
               Submit your full paper to:{" "}
               <a
@@ -154,19 +154,22 @@ const Eloquence = () => {
                 Click here to submit
               </a>
             </p> */}
-          </div>
+          {/* </div> */}
 
-          <div>
+          {/* <div>
             <h3 className="text-head md:text-xl lg:text-2xl font-semibold gradient-text">
-              Paper Presentation Guidelines
-            </h3>
+            📜 RULES AND REGULATIONS 📜            </h3>
             <p className="text-body lg:text-2xl">
-              Prepare your presentation using Microsoft PowerPoint (PPT). No
-              other format will be accepted. The presentation duration is 8–10
-              minutes and the Q&A session is 2–3 minutes.
+                🎵 Song Selection: The lyrics must be appropriate and free from vulgarity. ❌🗣
+                🎼 The song duration must not exceed 4 minutes. ⏱
+                🎙 Only shortlisted teams will be allowed to perform on stage. ✅
+                🚫 Equipment Restrictions: The use of fire, glass, sharp objects, or any hazardous materials is strictly prohibited. 🔥🚫🛑
+                📀 Karaoke Submission: The karaoke track must be submitted at least one day before the selection process. 🎧📅
+                🏆 Judging Criteria: The judges' decisions are final and binding. ⚖✅
+                ✨🎵✨ Step into the spotlight, unite your voices, and create a musical masterpiece! Sign up now and let the rhythm take over! 🎶💃🔥
             </p>
-            <br/>
-            <p className="text-body lg:text-2xl">For teams of two or three, only one member needs to submit the abstract.</p>
+            <br/> */}
+            {/* <p className="text-body lg:text-2xl">For teams of two or three, only one member needs to submit the abstract.</p> */}
             {/* <p className="text-body lg:text-2xl">
               Submit your presentation to:{" "}
               <a
@@ -178,22 +181,22 @@ const Eloquence = () => {
                 Click here to submit
               </a>
             </p> */}
-          </div>
+          {/* </div> */}
         </section>
 
           <div>
             <h3 className="text-head md:text-xl lg:text-2xl font-semibold gradient-text">
-              For Submission:
+             Registration
             </h3>
             <p className="text-body lg:text-2xl">
-              Submit your work to:{" "}
+             Register here:{" "}
               <a
                 href="https://forms.gle/Pz3g4aFGi96jEtvWA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 underline"
               >
-                Click here to submit
+                Click to Register
               </a>
             </p>
           </div>
@@ -205,9 +208,10 @@ const Eloquence = () => {
             For More Information
           </h2>
           <p className="text-body lg:text-2xl">
-            Contact: <br />
-            <strong>Janani M V:</strong> +91 8072147950 <br />
-            <strong>Sharan S:</strong> +91 8248782437
+            STUDENT COORDINATORS: <br />
+            <strong>💫Mughil .C   3rd year ECE:</strong> 7530074895
+                      <br />
+            <strong>💫Pooja Pradeep 2nd year ECE:</strong> 883860708
           </p>
         </section>
       </motion.div>

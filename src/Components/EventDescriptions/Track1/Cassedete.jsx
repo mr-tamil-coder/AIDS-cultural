@@ -42,47 +42,45 @@ const Cassedete = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Casse-Dete
+          ORU POIYAVATHU SOL
           </h1>
 
           <section className="text-gray-300 text-justify">
             <h2 className="text-xl md:text-2xl font-bold gradient-text">
-              Rules and Regulations
+            ✅❌ஒரு பொய்யாவது சொல்!!❌✅
             </h2>
             <ul className="list-disc list-inside">
-              <li>The participants must pair up as a team, a team must not exceed more than two members.</li>
-              <li>Any malpractice of participants at the time of events/rounds may lead to disqualification. </li>
+              <li>🔥 ஜெருசலேம் இன்ஜினியரிங் கல்லூரி வழங்கும் விறுவிறுப்பான உண்மை Vs பொய் போட்டி! 🔥</li>
+              <li>உங்கள் புத்திசாலித்தனத்தையும் கணிப்புத்திறனையும் சோதிக்க தயாராகுங்கள்!</li>
             </ul>
           </section>
 
           <section className="text-gray-300 mt-4">
             <h2 className="text-xl md:text-2xl lg:text-3xl font-bold gradient-text">
-              Round Details
+            📜 விதிமுறைகள் 📜
             </h2>
             <div className="mt-4">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-200">Round 1: Qualifying Round</h3>
               <ul className="list-disc list-inside ml-6">
-                <li>This round will test your knowledge of circuit theory, electronic components, power systems, control loops, and much more.</li>
-                <li>Answer trivia questions as quickly as possible and compete for the top spot in this fast-paced quiz on Kahoot!</li>
-                <li>Top 10 teams will qualify for the Round 2.</li>
+                <li>🎙. இரு நபர்கள் கொண்ட குழுவாக இருக்க வேண்டும்.</li>
+                <li>🎙. கேட்கப்படும் கேள்விகளில் இரண்டு உண்மை மற்றும் ஒரு பொய் இருக்கும், அதில்  பொய் எதுவென்று கண்டுபிடிக்கவேண்டும் .</li>
+                <li>🎙. முதலில் சரியான பதில் அளிக்கும் குழுவிற்கு மதிப்பெண் வழங்கப்படும்.
+                  <li>🎙. அதிக மதிப்பெண் எடுக்கும் குழு நபர்களே  வெற்றியாளர்கள்.</li>
+                </li>
               </ul>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-200">Round 2: Elimination Round</h3>
-              <ul className="list-disc list-inside ml-6">
-                <li>In this round, your expertise in circuit engineering will be tested in a crossword puzzle filled with essential engineering terms.</li>
-                <li>Fill in the grid with key concepts from various branches of circuit engineering.</li>
-                <li>Top 5 teams will be qualified for Round 3.</li>
-              </ul>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-200">Round 3: Final Round</h3>
-              <ul className="list-disc list-inside ml-6">
-                <li>Round off the event by putting skills to the ultimate test with a jigsaw puzzle. </li>
-                <li>The participants will be piecing together parts of a circuit components or equipment.</li>
-                <li>Work quickly to assemble the components and form a complete, working schematic.</li>
-                <li>The top 2 teams will be selected as the winner and the runner.</li>
-              </ul>
+              <section className="text-gray-300">
+          <h2>
+            📞
+            <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+              Enquiry and Contact Details:
+            </span>
+          </h2>
+          <p className="mt-4 lg:text-2xl">
+             <li>சஞ்சய் கிருஷ்ணா  +918610271001</li>
+             <li>விஷ்ணுகிரண்       +919363074319</li>
+
+          </p>
+        </section>
+            
             </div>
           </section>
         </motion.div>
