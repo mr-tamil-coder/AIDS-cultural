@@ -57,25 +57,27 @@ Proudly presents the <br/> <br/>
 Contest Theme: SECRETS BEHIND THE SMILE  <br/>
 Last Date for submission: March 12, 2025 
           </p>
-          <p>
-            Each participant receives a character profile, complete with secrets and motives, and must investigate the crime scene, gather clues, and question suspects. 
-          </p>
-          <p>
-            The goal is to piece together the evidence and identify the culprit before time runs out. This immersive experience combines role-playing, critical thinking, and teamwork, making it a memorable and exciting challenge for all involved.
-          </p>
+         
         </section>
 
         <section className="text-gray-300">
         <h2>📜<span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
              Rules and Regulations:
-          </span></h2>
+          </span></h2> {/*
+
+
+*/}
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>The event will last for a set duration. Participants must complete the investigation and identify the culprit before time runs out.</li>
-            <li>Participants must remain in character for the entire duration of the event to enhance the immersive experience.</li>
-            <li>All clues and evidence are accessible to everyone, but participants must be observant and ask questions to discover hidden details.</li>
-            <li>Interaction with other characters is encouraged to gather information. However, physical confrontation or aggressive behavior is strictly prohibited.</li>
+            <li>🤳🏻 Participants have to submit only one Photograph each.</li>
+            <li>🤳🏻 Photographs should be your original artwork in JPEG/JPG format. In case of any dispute, you may be asked to submit RAW/Original file of the entry photograph.</li>
+            <li>🤳🏻 Submission will not be accepted once the deadline lapses.</li>
+            <li>🤳🏻 Violation of contest rules disqualification of the contestant.</li>
+            <li>🤳🏻 Only basic editing allowed (Such as cropping, Black and White Contrast change).</li>
+            <li>🤳🏻 There must not be any border, logo(s), copyright marks.</li>
+            <li>🤳🏻 Results will be declared by judges and up. </li>
           </ul>
-        </section>
+        </section> {/*Registration link:  https://forms.gle/yuQqDtBGEHNPuMA89 */}
+        
 
         <section className="text-gray-300">
           <h2>🔍
