@@ -35,13 +35,13 @@ const EventContainer = () => {
         </div>
       </div>
       <div className="lg:gap-10 gap-5 flex flex-col lg:pb-10 sm:flex-row justify-center items-center animate__animated animate__fadeInUp">
-        <Link to="/track1">
+        <Link to="/onstage">
           <EventButton label="On Stage" />
         </Link>
-        <Link to="/track2">
+        <Link to="/offstage">
           <EventButton label="Off Stage" />
         </Link>
-        <Link to="/OnineEvents">
+        <Link to="/online">
           <EventButton label="Online" />
         </Link>
       </div>

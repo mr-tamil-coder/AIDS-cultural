@@ -15,7 +15,13 @@ import RandomEvents from "./RandomEvents";
 //cultural
 import Adaptune from "../assets/Cultural/onstage/Adaptune.jpg"
 import dumbCharades from "../assets/Cultural/onstage/dumbCharades.jpg"
-// import dumbcharades from "../assets/Cultural/onstage/dum-charades.jpg"
+import groupDance from "../assets/Cultural/onstage/GroupDance.jpg"
+import groupSinging from "../assets/Cultural/onstage/GroupSinging.jpg"
+import HairstyleShow from "../assets/Cultural/onstage/HairstyleShow.jpg"
+import MimeDrama from "../assets/Cultural/onstage/MimeDrama.jpg"
+import TraditionalEthinicWear from "../assets/Cultural/onstage/TraditionalEthinicWear.jpg"
+import vivathaMedai from "../assets/Cultural/onstage/VivathaMedai.jpg"
+
 
 import { Link } from "react-router-dom";
 
@@ -27,28 +33,28 @@ const OnStageEvents = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: elo, // Replace with actual image path
+      imageSrc: groupSinging, // Replace with actual image path
       altText: "Group Singing",
       label: "group Singing",
       path: "/group-singing",
     },
     {
       id: 2,
-      imageSrc: wiz,
+      imageSrc: MimeDrama,
       altText: "Group Drama",
       label: "group drama",
       path: "/group-drama",
     },
     {
       id: 3,
-      imageSrc: matter,
+      imageSrc: TraditionalEthinicWear,
       altText: "Group traditional",
       label: "group traditional",
       path: "/group-traditional",
     },
     {
       id: 4,
-      imageSrc: viz,
+      imageSrc: groupDance,
       altText: "group dance",
       label: "Group dance",
       path: "/group-dance",
@@ -69,14 +75,14 @@ const OnStageEvents = () => {
     },
     {
       id: 7,
-      imageSrc: codesprint, 
+      imageSrc: HairstyleShow, 
       altText: "hairstyle-showdown",
       label: "hairstyle-showdown",
       path: "/hairstyle-showdown",
     },
     {
       id: 8,
-      imageSrc: codesprint,
+      imageSrc: vivathaMedai,
       altText: "vivadha-medai",
       label: "vivadha-medai",
       path: "/vivadha-medai",
