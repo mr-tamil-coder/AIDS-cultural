@@ -57,7 +57,7 @@ const Wizzup = () => {
         <p className="text-gray-300 text-body lg:text-2xl">🌟 Step Into the Spotlight! 🌟 <br />
               The stage is set, the lights are on, and the moment is yours! <br /><br />
               Jerusalem College of Engineering proudly presents the Drama / Mime Competition, a platform for expressive storytelling, powerful performances, and captivating stage presence. Gather your team, craft your narrative, and let your emotions speak louder than words!
-              🗓 DATE: 21/03/25  ⏰ TIME: 11:30 AM  🏢 VENUE: OAT</p>
+              🗓 DATE: 21/03/25 <br /> ⏰ TIME: 11:30 AM  🏢 VENUE: OAT</p>
 
         {/* General Rules */}
         <section className="text-gray-300">
