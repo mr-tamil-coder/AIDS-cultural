@@ -43,7 +43,6 @@ const Ciniphilia = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          🎥✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
           🎬📽 SHORT FILM CONTEST 🎬📽
           </span>
@@ -51,10 +50,13 @@ const Ciniphilia = () => {
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Get ready for an exciting event where your love for movies will be
-            put to the ultimate test! Whether you're a fan of classics or
-            blockbusters, <strong>Cinephilia</strong> is the perfect challenge
-            for movie enthusiasts.
+          <strong>🌟 Lights, Camera, Action! 🌟</strong><br></br>
+          Cinema has the power to inspire, entertain, and provoke thought. Now, it's your turn to bring stories to life!
+          Jerusalem College of Engineering proudly presents <strong>The Short Film Contest</strong>—an opportunity for budding filmmakers to showcase their creativity,
+          storytelling, and cinematic skills. Gather your team, script your vision, and let the reel roll!<br></br>
+          🗓 DATE: 12/03/25<br></br>  
+          📂 MODE: Online Submission
+
           </p>
         </section>
 
