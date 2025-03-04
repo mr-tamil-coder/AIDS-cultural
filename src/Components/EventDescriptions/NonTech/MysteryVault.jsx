@@ -43,21 +43,21 @@ const MysteryVault = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          🕵️  
+          
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Mystery Vault
+          REELS
           </span>
         </h1>
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            <strong>"Decode the mystery, unlock the future!"</strong>  
-            <br /> Greetings from the Department of Information Technology!  
+            <strong>"🎬Reel it to win it 🎬"</strong>  
+            <br /> Are you ready to showcase your creativity and storytelling skills.. ?! Join our EXCELSIOR'2k25 and stand a chance to win exciting prizes. !  
           </p>
-          <p>
+          {/* <p>
             We are excited to welcome you to  
             <strong> ✧･ﾟ: ✦✨ MYSTERY VAULT ✨✦:･ﾟ✧ </strong>,  
             a national-level non-technical event designed to test your ingenuity, collaboration, and technical acumen.
-          </p>
+          </p> */}
           <p>
             Gear up to dive into a series of exciting rounds, solve mysteries, and prove your mettle against the brightest minds!
           </p>
