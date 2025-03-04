@@ -1,28 +1,25 @@
 import React from "react";
 import NonCircuitnTech from "./NonCircuitnTech";
-import CircuitTec from "./CircuitTec";
-
+import NonCircuitTec from "./NonCircuitTec";
 import EventButton from "./EventButton";
 import { Link } from "react-router-dom";
 import TrackInfo from "./TrackInfo";
 import img from "../assets/symposium/overallPoster.jpg";
-import "animate.css";
-const Circuit = () => {
+import OnStageEvents from "./OnStageEvents";
+const OnStage = () => {
   return (
     <div>
       <TrackInfo
-        label="Online Events"
+        label="OnStage"
         Image={img}
         Description="Registration for Technovanza is now open! Secure your spot today and
             be part of an event that celebrates innovation and collaboration.
             Don’t miss the opportunity to engage with tech enthusiasts and experts."
       />
-
-      <NonCircuitnTech/>
-      
+      <OnStageEvents />
       <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSccABdnuMlfiHB0bUyGP0XUXxeLaHJuFR7ao9seUTDPlmyvjw/formResponse"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSccABdnuMlfiHB0bUyGP0XUXxeLaHJuFR7ao9seUTDPlmyvjw/viewform" // Replace with your actual Google Form URL
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -34,4 +31,4 @@ const Circuit = () => {
   );
 };
 
-export default Circuit;
+export default OnStage;
