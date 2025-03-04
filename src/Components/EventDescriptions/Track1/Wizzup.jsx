@@ -45,7 +45,7 @@ const Wizzup = () => {
         <h1>
         ✨
           <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Wizzup – Debugging Event
+          🎭🗣 DRAMA / MIME COMPETITION 🎭🗣
           </span>
         </h1>
 
@@ -54,136 +54,66 @@ const Wizzup = () => {
             Description:
           </span>
         </h2>
-        <p className="text-gray-300 text-body lg:text-2xl">It is a code cum game-based event.</p>
+        <p className="text-gray-300 text-body lg:text-2xl">🌟 Step Into the Spotlight! 🌟 <br />
+              The stage is set, the lights are on, and the moment is yours! <br /><br />
+              Jerusalem College of Engineering proudly presents the Drama / Mime Competition, a platform for expressive storytelling, powerful performances, and captivating stage presence. Gather your team, craft your narrative, and let your emotions speak louder than words!
+              🗓 DATE: 21/03/25  ⏰ TIME: 11:30 AM  🏢 VENUE: OAT</p>
 
         {/* General Rules */}
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            General Rules
+          📜 RULES AND REGULATIONS 📜
           </h2>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>Teams must consist of exactly 2 members (Only Registered!).</li>
-            <li>Electronic devices such as mobile phones or laptops are not
-              allowed, except for the provided systems.
+            <li><b>🎭 Performance Type:</b> Participants can choose to perform either a drama or a mime.</li>
+            <li>
+              <b>⏳ Duration:</b> The performance should be between 5 to 7 minutes (including setup and exit time). Exceeding the time limit will lead to penalties.
             </li>
-            <li>All teams must arrive for registration and briefing 15 minutes
-              before the event starts.
+            <li><b>📞 Theme & Content:</b> <br />
+                - The content must be original, socially relevant, and free from any vulgarity, hate speech, or offensive elements. <br />
+                - Mimes must be performed without spoken words, using only expressions and body movements. <br />
             </li>
-            <li>Decisions made by the organizers and judges are final.</li>
-          </ul>
-        </section>
-
-        {/* Round 1 */}
-        <section className="text-gray-300">
-          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Round 1: Debugging Round
-          </h2>
-          <p className="text-subhead lg:text-2xl">
-            <b>Total Time:</b> 30 minutes
-          </p>
-          <p className="text-subhead lg:text-2xl">
-            <b>Language:</b> C
-          </p>
-          <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>Teams will be provided with jumbled lines of a code snippet
-              with a set of questions.
+            <li><b>🎤 Props & Costumes: </b><br />
+                - Participants must bring their own costumes and props. <br />
+                - The use of fire, water, glass, sharp objects, or any hazardous materials is strictly prohibited. <br />
+                - Backdrops or additional setups must be simple and easy to place/remove within 1 minute.
             </li>
-            <li>The task is to arrange the jumbled lines to form a working
-              code.
+            <li>
+              <b>📻 Sound & Music: </b><br />
+              - Only instrumental or pre-recorded soundtracks are allowed. <br />
+              - Music tracks must be submitted one day before the competition. <br />
+              - Live dialogues are allowed in dramas but not in mimes.
             </li>
-            <li>Teams must code it on the provided system and verify the
-              output.
+            <li><b>🏆 Judging Criteria: </b><br />
+                ⚖ The judges' decision will be final. <br />
+                🎭🗣 Unleash your emotions, captivate the audience, and bring your story to life on stage! <br />
             </li>
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Points will be awarded for:</h3>
-              <ul className="list-disc ml-6">
-                <li>Correct arrangement of code.</li>
-                <li>Successful compilation and execution.</li>
-                <li>Time taken to complete the task.</li>
-              </ul>
-            
           </ul>
         </section>
 
         {/* Round 2 */}
         <section className="text-gray-300">
-          <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Round 2: Coding Charades Challenge
-          </h2>
-          <p className="text-subhead lg:text-2xl">
-            <b>Total Time:</b> 40 minutes
-          </p>
-          <p className="text-subhead lg:text-2xl">
-            <b>Language:</b> C / Python
-          </p>
-          <p className="text-body lg:text-2xl">
-            <b>Objective:</b> The game is based on Coding and Dumb Charades,
-            with team members taking turns between acting and coding.The team
-            plays several rounds of Dumb Charades and earns coding time for each
-            round. The winner is determined by the number of coding tasks
-            completed within the earned time
-          </p>
 
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mt-4 gradient-text">
-            Game Setup:
+          👥 Team Size:
           </h3>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>
-              <b>Member 1 (Performer):</b> Acts out the clues.
-            </li>
-            <li>
-              <b>Member 2 (Coder):</b> Works on coding tasks during the
-              coding time.
-            </li>
+            Each team can have 7 to 9 members including actors and backstage crew
           </ul>
 
-          <h3 className="text-lg md:text-xl lg:text-2xl font-bold mt-4 gradient-text">
-            Rounds:
-          </h3>
-          <h4 className="text-lg md:text-xl lg:text-1xl font-bold mt-4 gradient-text">
-            a) Dumb Charades Round:
-          </h4>
-          <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>
-              Dumb Charades are played in each round to earn coding time.
-            </li>
-            <li>
-              The performer will act out a word, phrase, or object (without
-              speaking) while the coder tries to guess it within 1 minute time
-              limit for guessing.
-            </li>
-            <li>
-              If the team guesses correctly within 1 minute, they earn 4
-              minutes of coding time for the next task; otherwise, they earn
-              only 2 minutes of coding time for the next round
-            </li>
-          </ul>
-
-          <h4 className="text-lg md:text-xl lg:text-1xl font-bold mt-4 gradient-text">
-            b) Coding Time:
-            </h4>
-          <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li>
-              After each charade round, the coder uses the earned coding time
-              (4 or 2 minutes) to work on a coding task.
-            </li>
-            <li>
-              The coding task could be a simple programming problem (like a
-              basic algorithm or data structure problem).
-            </li>
-          </ul>
         </section>
 
         {/* Contact Details */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Contact Details
-          </h2>
+          STUDENT COORDINATORS:
+         </h2>
           <ul className="list-disc list-inside">
             <li>
-              <b>Keerthivasan SJ:</b> 9952647749
+              <b>Mahendra U: </b>9840673391
             </li>
             <li>
-              <b>Umaiza:</b> 9092663374
+              <b>  Aliah Ridha A: </b>7845895974
             </li>
           </ul>
         </section>
