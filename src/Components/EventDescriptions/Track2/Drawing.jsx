@@ -42,41 +42,67 @@ const Cassedete = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-          ORU POIYAVATHU SOL
+          ✨ DRAWING CONTEST – RULES & REGULATIONS ✨
+          </h1>
+          <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
+          📌 Theme: Ink of Dreams 
           </h1>
 
+          
+        <section className="text-gray-300">
+          <h2>🛠️ 
+          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+              📅Event Details:
+          </span></h2>
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
+            <li><strong>Date:</strong> 20/03/25 📅</li>
+            <li><strong>Time:</strong> 11:30 AM – 01:00 PM⏰</li>
+            <li><strong>Venue:</strong>  M303🏡</li>
+            
+          </ul>
+        </section> 
           <section className="text-gray-300 text-justify">
             <h2 className="text-xl md:text-2xl font-bold gradient-text">
-            ✅❌ஒரு பொய்யாவது சொல்!!❌✅
+            Guidelines for Participants:
             </h2>
             <ul className="list-disc list-inside">
-              <li>🔥 ஜெருசலேம் இன்ஜினியரிங் கல்லூரி வழங்கும் விறுவிறுப்பான உண்மை Vs பொய் போட்டி! 🔥</li>
-              <li>உங்கள் புத்திசாலித்தனத்தையும் கணிப்புத்திறனையும் சோதிக்க தயாராகுங்கள்!</li>
+              <li> <strong>Artwork Requirements:</strong> Participants are free to create either abstract or realistic drawings. They may choose vibrant colors or monochrome styles using any traditional medium such as watercolors, pastels, or pencils. Digital art and photographs will not be accepted.</li>
+              <li> <strong>Required Materials:</strong> Contestants must bring their own art supplies, including colors, brushes, and other necessary tools. Drawings should be made on an A3-sized sheet.</li>
+              <li> <strong> Time Limit:</strong> The competition will run for 45 minutes, starting at 11:30 AM .</li>
+              <li> <strong> Submission Guidelines:</strong> Participants must hand in their completed artwork at least 5 minutes before the deadline. Late submissions will not be entertained.</li>
+              <li> <strong>   Judging Parameters: </strong> <br /> <pre>
+✅ Innovation & Concept <br />
+✅ Connection to the Theme <br />
+✅ Artistic Skills & Techniques <br />
+✅ Neatness & Overall Presentation </pre></li>
+<li> <strong>Final Decision:</strong>   The judges verdict will be conclusive and cannot be appealed.</li>
+<li> <strong> Prizes & Recognition:</strong> Winners will be chosen based on creativity, originality, and interpretation of the theme.</li>
+<li> <strong> Integrity & Ethics:</strong> Any form of duplication or copying of existing artwork will lead to immediate disqualification.</li>
             </ul>
           </section>
 
           <section className="text-gray-300 mt-4">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold gradient-text">
+             {/* <h2 className="text-xl md:text-2xl lg:text-3xl font-bold gradient-text">
             📜 விதிமுறைகள் 📜
-            </h2>
+            </h2> */}
             <div className="mt-4">
-              <ul className="list-disc list-inside ml-6">
+              {/* <ul className="list-disc list-inside ml-6">
                 <li>🎙. இரு நபர்கள் கொண்ட குழுவாக இருக்க வேண்டும்.</li>
                 <li>🎙. கேட்கப்படும் கேள்விகளில் இரண்டு உண்மை மற்றும் ஒரு பொய் இருக்கும், அதில்  பொய் எதுவென்று கண்டுபிடிக்கவேண்டும் .</li>
                 <li>🎙. முதலில் சரியான பதில் அளிக்கும் குழுவிற்கு மதிப்பெண் வழங்கப்படும்.
                   <li>🎙. அதிக மதிப்பெண் எடுக்கும் குழு நபர்களே  வெற்றியாளர்கள்.</li>
                 </li>
-              </ul>
+              </ul>  */}
               <section className="text-gray-300">
           <h2>
-            📞
+            📞 
             <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-              Enquiry and Contact Details:
+             Student Coordinator :
             </span>
           </h2>
           <p className="mt-4 lg:text-2xl">
-             <li>சஞ்சய் கிருஷ்ணா  +918610271001</li>
-             <li>விஷ்ணுகிரண்       +919363074319</li>
+             <li> 1.Sreya.T.R (III-CS&BS) - 7305909778.</li>
+             <li> 2.Sharan.S (II-CS&BS) - 8248782437</li>
 
           </p>
         </section>
