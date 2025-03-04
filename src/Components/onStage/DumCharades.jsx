@@ -48,12 +48,6 @@ const DumCharades = () => {
           🗣 DUMCHARADES 🗣
           </span>
         </h1>
-
-        <h2>
-          <span className="text-head lg:text-2xl font-bold mb-2 gradient-text">
-            Description:
-          </span>
-        </h2>
         <p className="text-gray-300 text-body lg:text-2xl">
           <ul>
             <li>🌟 EXCELSIOR 2K25 🌟</li>
