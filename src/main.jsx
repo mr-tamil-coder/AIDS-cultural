@@ -51,6 +51,15 @@ import Adaptune from "./Components/onStage/Adaptune.jsx";
 import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx";
 import GroupDance from "./Components/onStage/GroupDance.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
+import MaatriYosi from "./Components/offStage/MaatriYosi.jsx";
+import OffStageEvents from "./Components/OffStageEvents.jsx";
+import OffStage from "./Components/OffStage.jsx";
+import OruPoiSol from "./Components/offStage/OruPoiSol.jsx";
+import ReverseReading from "./Components/offStage/ReverseReading.jsx";
+import RecallRace from "./Components/offStage/RecallRace.jsx";
+import FirelessCookery from "./Components/offStage/FirelessCookery.jsx";
+import Drawing from "./Components/offStage/Drawing.jsx";
+import GullyCricket from "./Components/offStage/GullyCricket.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -102,8 +111,32 @@ const appRouter = createBrowserRouter([
         element: <VizYourWay />,
       },
       {
-        path: "/energianova",
-        element: <EnergiaNova />,
+        path: "/maathiYosi",
+        element: <MaatriYosi />,
+      },
+      {
+        path: "/oruPoiSol",
+        element: <OruPoiSol />,
+      },
+      {
+        path: "/reverseReading",
+        element: <ReverseReading />,
+      },
+      {
+        path: "/recallRace",
+        element: <RecallRace />,
+      },
+      {
+        path: "/firelessCookery",
+        element: <FirelessCookery />,
+      },
+      {
+        path: "/drawing",
+        element: <Drawing />,
+      },
+      {
+        path: "/gullyCricket",
+        element: <GullyCricket />,
       },
       {
         path: "/cassedete",
@@ -167,7 +200,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/offstage",
-        element: <Circuit />,
+        element: <OffStage />,
       },
       {
         path: "/events/circuit-tech",
