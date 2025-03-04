@@ -43,6 +43,12 @@ import Online1 from "./Components/OnlineEve.jsx";
 // cultural
 import OnStage from "./Components/OnStage.jsx";
 import GroupSinging from "./Components/onStage/GroupSinging.jsx";
+import GroupDrama from "./Components/onStage/GroupDrama.jsx";
+import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
+import DumCharades from "./Components/onStage/DumCharades.jsx";
+import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
+// import DumCharades from "./Components/onStage/DumCharades.jsx";
+// import DumCharades from "./Components/onStage/DumCharades.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -61,6 +67,34 @@ const appRouter = createBrowserRouter([
         path: "/group-singing",
         element: <GroupSinging />,
       },
+      {
+        path: "/group-drama",
+        element: <GroupDrama />,
+      },
+      {
+        path: "/group-traditional",
+        element: <GroupTraditional />,
+      },
+      {
+        path: "/dumcharades",
+        element: <DumCharades />,
+      },
+      {
+        path: "/adaptune",
+        element: <DumCharades />,
+      },
+      {
+        path: "/adaptune",
+        element: <DumCharades />,
+      },  
+      {
+        path: "/hairstyle-showdown",
+        element: <DumCharades />,
+      }, 
+      {
+        path: "/vivadha-medai",
+        element: <VivadhaMedai />,
+      },  
       {
         path: "/vizyourway",
         element: <VizYourWay />,
