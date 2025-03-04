@@ -62,6 +62,10 @@ import RecallRace from "./Components/offStage/RecallRace.jsx";
 import FirelessCookery from "./Components/offStage/FirelessCookery.jsx";
 import Drawing from "./Components/offStage/Drawing.jsx";
 import GullyCricket from "./Components/offStage/GullyCricket.jsx";
+import GroupDance from "./Components/onStage/GroupDance.jsx";
+import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx"
+import Adaptune from "./Components/onStage/Adaptune.jsx"
+import EssayEng from "./Components/EventDescriptions/NonTech/EssayEng.jsx"
 const appRouter = createBrowserRouter([
   {
     path: "/",
