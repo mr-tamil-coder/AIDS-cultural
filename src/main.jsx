@@ -89,12 +89,16 @@ const appRouter = createBrowserRouter([
         element: <GroupTraditional />,
       },
       {
+        path: "/group-dance",
+        element: <GroupDance />,
+      },
+      {
         path: "/dumcharades",
         element: <DumCharades />,
       },
       {
         path: "/adaptune",
-        element: <DumCharades />,
+        element: <Adaptune />,
       },
       {
         path: "/adaptune",
@@ -102,7 +106,7 @@ const appRouter = createBrowserRouter([
       },  
       {
         path: "/hairstyle-showdown",
-        element: <DumCharades />,
+        element: <HairstyleShowdown />,
       }, 
       {
         path: "/vivadha-medai",
@@ -143,6 +147,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/gullyCricket",
         element: <GullyCricket />,
+      },
+      {
+        path: "/essayeng",
+        element: <EssayEng />,
       },
       {
         path: "/cassedete",

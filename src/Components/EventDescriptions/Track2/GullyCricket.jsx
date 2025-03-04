@@ -42,7 +42,10 @@ const Cassedete = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-          ORU POIYAVATHU SOL
+          ✨ DRAWING CONTEST – RULES & REGULATIONS ✨
+          </h1>
+          <h1 className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
+          📌 Theme: Ink of Dreams 
           </h1>
 
           <section className="text-gray-300 text-justify">
