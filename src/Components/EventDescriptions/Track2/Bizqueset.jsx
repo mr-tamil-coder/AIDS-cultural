@@ -71,14 +71,14 @@ const Bizqueset = () => {
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Rules and Regulations</h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>👥<strong>Team Size:</strong> Each team must have 2 members. 👩‍🍳👨‍🍳.</li>
-            <li>📢<strong>Eligibility:</strong> The competition is open to all students. 💡⚡</li>
-            <li>🥣<strong>Dish Preparation:</strong> Only fireless cooking methods (chopping, blending, assembling, etc.) are allowed. 🔪🍓</li>
-            <li>⏳<strong>Time Limit:</strong> Participants will get 40 minutes to prepare their dish. ⏱</li>
-            <li>📝<strong>Ingredients: </strong> Participants must bring their own ingredients. Only pre-approved ingredients are allowed. 🍲✨</li>
-            <li>🚫<strong>Prohibited Items:</strong> The use of electrical appliances such as induction stoves, ovens, or heaters is not allowed. ❌⚡</li>
-            <li>🍛<strong>Presentation: </strong> The dish should be well-plated, with a name and a short explanation of its health benefits. 🎨✨</li>
-            <li>🏆<strong>Judging Criteria: </strong> Taste, Creativity, Presentation, and Health Factor. The judge’s decisions are final and binding. ✅⚖</li>
+            <li><strong>👥Team Size:</strong> Each team must have 2 members. 👩‍🍳👨‍🍳.</li>
+            <li><strong>📢Eligibility:</strong> The competition is open to all students. 💡⚡</li>
+            <li><strong>🥣Dish Preparation:</strong> Only fireless cooking methods (chopping, blending, assembling, etc.) are allowed. 🔪🍓</li>
+            <li><strong>⏳Time Limit:</strong> Participants will get 40 minutes to prepare their dish. ⏱</li>
+            <li><strong>📝Ingredients: </strong> Participants must bring their own ingredients. Only pre-approved ingredients are allowed. 🍲✨</li>
+            <li><strong>🚫Prohibited Items:</strong> The use of electrical appliances such as induction stoves, ovens, or heaters is not allowed. ❌⚡</li>
+            <li><strong>🍛Presentation: </strong> The dish should be well-plated, with a name and a short explanation of its health benefits. 🎨✨</li>
+            <li><strong>🏆Judging Criteria: </strong> Taste, Creativity, Presentation, and Health Factor. The judge’s decisions are final and binding. ✅⚖</li>
           </ul>
         
         </section>
