@@ -70,7 +70,7 @@ const Bizqueset = () => {
         {/* Rules and Regulations Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Rules and Regulations</h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
             <li>👥<strong>Team Size:</strong> Each team must have 2 members. 👩‍🍳👨‍🍳.</li>
             <li>📢<strong>Eligibility:</strong> The competition is open to all students. 💡⚡</li>
             <li>🥣<strong>Dish Preparation:</strong> Only fireless cooking methods (chopping, blending, assembling, etc.) are allowed. 🔪🍓</li>
