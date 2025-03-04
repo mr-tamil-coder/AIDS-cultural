@@ -54,6 +54,20 @@ const CircuitTec = () => {
       label: "BizQueset",
       path: "/bizqueset",
     },
+    {
+      id: 6,
+      imageSrc: Image, 
+      altText: "Drawing",
+      label: "Drawing",
+      path: "/drawing",
+    },
+    {
+      id: 7,
+      imageSrc: Image, 
+      altText: "Gully Cricket",
+      label: "Gully Cricket",
+      path: "/gullycricket",
+    },
   ];
 
   return (

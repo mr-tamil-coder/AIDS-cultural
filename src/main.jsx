@@ -31,8 +31,8 @@ import Contact from "./Components/Contact.jsx";
 import CodeSprint from "./Components/EventDescriptions/Track1/CodeSprint.jsx";
 import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
 import Ciniphilia from "./Components/EventDescriptions/NonTech/Ciniphilia.jsx";
-import MysteryVault from "./Components/EventDescriptions/NonTech/MysteryVault.jsx";
-import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
+import MysteryVault from "./Components/EventDescriptions/NonTech/reels.jsx";
+// import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
 import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
 import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
@@ -47,6 +47,10 @@ import GroupDrama from "./Components/onStage/GroupDrama.jsx";
 import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
 import DumCharades from "./Components/onStage/DumCharades.jsx";
 import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
+import Photo from "./Components/EventDescriptions/NonTech/photography.jsx";
+import Reels from "./Components/EventDescriptions/NonTech/reels.jsx";
+import Draw from "./Components/EventDescriptions/Track2/Drawing.jsx";
+import Cricket from "./Components/EventDescriptions/Track2/GullyCricket.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
 const appRouter = createBrowserRouter([
@@ -96,6 +100,10 @@ const appRouter = createBrowserRouter([
         element: <VivadhaMedai />,
       },  
       {
+        path:"/photography",
+        element: <Photo/>,
+      },
+      {
         path: "/vizyourway",
         element: <VizYourWay />,
       },
@@ -124,13 +132,18 @@ const appRouter = createBrowserRouter([
         element: <CodeSprint />,
       },
       {
-        path: "/mysteryvault",
-        element: <MysteryVault />,
+        path: "/reels ",
+        element: <Reels/>,
       },
       {
-        path: "/deadlydeeds",
-        element: <DeadlyDeeds />,
+        path:"/drawing",
+        element: <Draw/>,
       },
+       {
+         path: "/gullycricket",
+         element: <Cricket />,
+       },
+
       {
         path: "/mattermind",
         element: <MatterMind />,
