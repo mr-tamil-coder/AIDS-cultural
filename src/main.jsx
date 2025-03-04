@@ -40,7 +40,8 @@ import IPL from "./Components/EventDescriptions/NonTech/IplAuction.jsx";
 import Cassedete from "./Components/EventDescriptions/Track1/Cassedete.jsx";
 import TeamCarousel from "./Components/TeamCarousel.jsx";
 import Online1 from "./Components/OnlineEve.jsx";
-
+// cultural
+import OnStage from "./Components/OnStage.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -128,7 +129,7 @@ const appRouter = createBrowserRouter([
         element: <Cassedete />,
       },
       {
-        path: "/track2",
+        path: "/offstage",
         element: <Circuit />,
       },
       {
@@ -140,8 +141,8 @@ const appRouter = createBrowserRouter([
         element: <NonCircuitnTech />,
       },
       {
-        path: "/track1",
-        element: <NonCircuit />,
+        path: "/onstage",
+        element: <OnStage />,
       },
       {
         path: "/events/non-circuit-tech",
@@ -185,7 +186,7 @@ const appRouter = createBrowserRouter([
         element: <TeamCarousel/>,
       },
       {
-        path: "/OnineEvents",
+        path: "/online",
         element: <Online1/>,
       },
     ],
