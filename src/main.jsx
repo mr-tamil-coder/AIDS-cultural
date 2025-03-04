@@ -31,7 +31,7 @@ import Contact from "./Components/Contact.jsx";
 import CodeSprint from "./Components/EventDescriptions/Track1/CodeSprint.jsx";
 import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
 import Ciniphilia from "./Components/EventDescriptions/NonTech/Ciniphilia.jsx";
-import MysteryVault from "./Components/EventDescriptions/NonTech/reels.jsx";
+import MysteryVault from "./Components/EventDescriptions/NonTech/Reels.jsx";
 // import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
 import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
@@ -48,7 +48,7 @@ import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
 import DumCharades from "./Components/onStage/DumCharades.jsx";
 import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
 import Photo from "./Components/EventDescriptions/NonTech/photography.jsx";
-import Reels from "./Components/EventDescriptions/NonTech/reels.jsx";
+import Reels from "./Components/EventDescriptions/NonTech/Reels.jsx";
 import Draw from "./Components/EventDescriptions/Track2/Drawing.jsx";
 import Cricket from "./Components/EventDescriptions/Track2/GullyCricket.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
