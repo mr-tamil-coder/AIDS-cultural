@@ -108,11 +108,12 @@ const Batallia = () => {
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
             <li>Dr.R.BALARAMAN (HOD) -80128 83113📞</li>
             <li>Ms.S.RUDHRA (Asst. Professor) -94420 69459 📞</li>
-          </ul>
-          <br></br>
+          </ul> </section>
+           
+          <section className="text-gray-300 text-justify text-body lg:text-2xl">
             <p>Step into the world of reverse reading, challenge your minds, and win exciting prizes! 🎁</p>
-            <p>Sign up now and get ready to read in reverse! 🔙📖</p>
-        </section>
+            <p>Sign up now and get ready to read in reverse! 🔙📖</p></section>
+        
       </motion.div>
     </div>
   );
