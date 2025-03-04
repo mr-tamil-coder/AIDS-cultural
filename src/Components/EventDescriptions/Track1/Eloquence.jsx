@@ -53,8 +53,10 @@ const Eloquence = () => {
         <section className="text-gray-300 text-justify">
           <p className="text-body lg:text-2xl">
           🌟 Warm Greetings! 🌟
-Get ready to captivate the audience with your musical talent! 🎵🔥 Jerusalem College of Engineering presents the Group Singing Competition—a platform to showcase your harmony, passion, and stage presence. Gather your team and let the music take center stage! 🎶💫
-📅 DATE: 21/03/25,⏰ TIME: 10:00AM,📍 VENUE: Open Air Auditorium 
+          Get ready to captivate the audience with your musical talent! 🎵🔥 Jerusalem College of Engineering presents the Group Singing Competition—a platform to showcase your harmony, passion, and stage presence. Gather your team and let the music take center stage! 🎶💫<br/>
+          📅 DATE: 21/03/25 <br />
+          ⏰ TIME: 10:00AM <br />
+          📍 VENUE: Open Air Auditorium <br />
 
           </p>
         </section>
