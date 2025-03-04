@@ -62,56 +62,39 @@ const Ciniphilia = () => {
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Rules and Regulations
+          📚 RULES AND REGULATIONS 📚
           </h2>
-          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>
-              <strong>Team Formation:</strong> Each team can have 2 or 3
-              members. Choose your movie buffs wisely!
-            </li>
-          </ul>
-        </section>
-
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Event Structure
-          </h2>
-          <p className="text-body lg:text-2xl">
-            The game consists of three thrilling rounds:
-          </p>
-          <ul className="list-decimal list-inside mt-4 text-body lg:text-2xl">
-            <li>
-              <strong>Round 1:</strong> Test your memory of iconic movie
-              moments.
-            </li>
-            <li>
-              <strong>Round 2:</strong> A rapid-fire movie quiz to challenge
-              your knowledge.
-            </li>
-            <li>
-              <strong>Round 3:</strong> Identify the Movie Snippet – Can you
-              name the movie from a short scene or clip?
-            </li>
-          </ul>
-          <p className="mt-4 text-body lg:text-2xl">
-            Teams that excel in each round will move to the next stage.
+          <p>
+          <strong>🎬 Theme & Content: The secrets behind the smile</strong><br></br>
+          The short film must be original, appropriate, and free from any vulgarity, hate speech, or offensive content. ❌<br></br><br></br>
+          <strong>⏳Duration:</strong>The short film should be between 5 to 6 minutes, including the credits.<br></br><br></br>
+          <strong>📹 Format & Submission:</strong>
+          Films must be submitted in MP4 DOC format with a minimum resolution of 720p.<br></br><br></br>
+          The file name should be in the format: [TeamName_FilmTitle].mp4<br></br><br></br>
+          <strong>Submission deadline:</strong> 12th March 2025<br></br><br></br>
+          <strong>Submission Mail ID:</strong> excelsior@jerusalemengg.ac.in<br></br><br></br>
+          <strong>🎥 Technical Guidelines:</strong>
+          Subtitles are encouraged but not mandatory.<br/><br/>
+         <strong>🔥Restrictions:</strong>  The use of fire, hazardous materials, or content that promotes violence, discrimination, or political agendas is strictly prohibited.
           </p>
         </section>
 
+       
+
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Judging
+          ⚖ Judging Criteria:
+
+
           </h2>
           <p className="text-body lg:text-2xl">
-            All decisions made by the judges will be final and conclusive. Just
-            play... no rewinds or replays!
+            The judges' decisions are final and binding.
           </p>
         </section>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            "Bring your A-game and movie enthusiasm! This event is all about fun
-            and camaraderie."
+          🎬📽 Unleash your imagination, bring your stories to life, and let the world witness your cinematic brilliance!
           </p>
         </section>
         {/* Enquiry Section */}
@@ -121,13 +104,11 @@ const Ciniphilia = () => {
           </h2>
           <p className="text-body lg:text-2xl">
             Contact: <br />
-            <strong>Samuel matthew :</strong> +919943084464
+            <strong>Sai Vikram V </strong> 9043962216<br></br>
+            <strong>Mohammad Haq Noorul</strong>7708810011
             <br />
           </p>
         </section>
-        <footer className="text-gray-300 mt-4">
-          <p className="text-center font-bold">Have Fun!</p>
-        </footer>
       </motion.div>
     </div>
   );
