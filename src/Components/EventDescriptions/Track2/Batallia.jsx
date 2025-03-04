@@ -43,80 +43,75 @@ const Batallia = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          🤖  
+        📖
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Batallia de Robots: Speed Circuit Challenge
+          Reverse Reading Event 
           </span>
         </h1>
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Join us for the <strong>Batallia de Robots: Speed Circuit Challenge</strong>, where participants race their custom-built robots through a thrilling obstacle course. 
+          Warm Greetings! 🌟 by <strong>Jerusalem College of Engineering</strong>  
           </p>
           <p>
-            The event features qualifying time trials, elimination rounds, semifinals, and a final race to determine the ultimate champion. Robots must be autonomous, within specified size and weight limits, and equipped with sensors for navigation.
+          Get ready to flip your reading skills upside down and challenge your minds! 🤯
           </p>
           <p>
-            Compete for prizes in categories like <strong>fastest robot</strong>, <strong>best design</strong>, and <strong>most innovative robot</strong>. Showcase your technical skills in this high-energy competition!
+          We are happy presents<strong> Reverse Reading</strong> ✨, a unique platform to showcase your reading skills in reverse! 🔙
           </p>
+          <p>Get ready🤓 to read between the lines... in reverse! 📚</p>
         </section>
 
-        <section className="text-gray-300">
+         <section className="text-gray-300">
           <h2>🛠️ 
           <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-              Rules and Regulations:
+              📅Event Details:
           </span></h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>All type of robots(racing and non-racing) can participate.</li>
-            <li>Manually controlled an autonomous robots are allowed.</li>
-            <li>Performance-based qualification</li>
-            <li>Non-racing robot will be evaluated based on specific performance criteria
-              instead of race time.
-            </li>
-            <li>Racing robots will still compete in speed based rounds</li>
-          </ul>
-        </section>
-
-        <section className="text-gray-300">
-          <h2>🚦
-          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-             Round Details:[RACING]
-          </span></h2>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Qualifying Round:</h3>
-          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Racing robots gets two attempts to complete the track. Best time is recorded, Based on performance,robot will be qualified for the next round.</li>
-            <li>The best time out of two attempts is recorded.</li>
-          </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Elimination Round:</h3>
-          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Racing robots compete in pairs, with the winner advancing.(It can be in track or in non-track based on robot)</li>
-            <li>Pairings are based on qualifying times.</li>
-          </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Finals:</h3>
-          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Categorized robot compete in respective categories.</li>
-          
-          </ul>
-        </section>
-        <section className="text-gray-300">
-          <h2>🚦
-          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-             Round Details:[NON RACING]
-          </span></h2>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Qualifying Round:</h3>
-          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Non Racing robots are tested on specific challenges like obstacle navigation,precision tasks or innovation</li>
-            <li>Based on performance,robot will qualified for the next round.</li>
-          </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Elimination Round:</h3>
-          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Non-racing robots are judged based on innovation,functionality and technical execution.</li>
+            <li><strong>Date:</strong> 20/03/25 📅</li>
+            <li><strong>Time:</strong> 11:30 AM - 1:00PM ⏰</li>
+            <li><strong>Venue:</strong> M204 / M206🏡</li>
             
           </ul>
-          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Finals:</h3>
+        </section> 
+
+        <section className="text-gray-300">
+          <h2>
+          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          Reading Guidelines:
+          </span></h2>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Round 1 :</h3>
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>The categorized robot compete in respective categories.</li>
-          
+            <li>Fun cine quiz  will be given which contains reversed options ⬅.Correct option should be selected from the given reversed options. </li>
           </ul>
+          <h3 className="font-semibold mt-4 text-body lg:text-2xl">Round 2 :</h3>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
+            <li> Read the displayed reversed sentence or word ⬅ in correct order➡,at the given time⏱</li>
+            <li> judges decisions are final💟</li>
+          </ul>
+          
+          
+        </section>
+        <section className="text-gray-300">
+          <h2>
+          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          Student Coordinators:
+          </span></h2>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
+            <li>Divya Lakshmi S-  87781 09278📞</li>
+            <li>Pranav Ramana PA -  9444425914 📞</li>
+          </ul>
+
+          <h2>
+          <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+          Faculty Coordinators :
+          </span></h2>
+          <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
+            <li>Dr.R.BALARAMAN (HOD) -80128 83113📞</li>
+            <li>Ms.S.RUDHRA (Asst. Professor) -94420 69459 📞</li>
+          </ul>
+          <br></br>
+            <p>Step into the world of reverse reading, challenge your minds, and win exciting prizes! 🎁</p>
+            <p>Sign up now and get ready to read in reverse! 🔙📖</p>
         </section>
       </motion.div>
     </div>
