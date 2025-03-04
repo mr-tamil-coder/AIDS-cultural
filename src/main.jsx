@@ -31,8 +31,8 @@ import Contact from "./Components/Contact.jsx";
 import CodeSprint from "./Components/EventDescriptions/Track1/CodeSprint.jsx";
 import MatterMind from "./Components/EventDescriptions/Track1/MatterMind.jsx";
 import Ciniphilia from "./Components/EventDescriptions/NonTech/Ciniphilia.jsx";
-import MysteryVault from "./Components/EventDescriptions/NonTech/MysteryVault.jsx";
-import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
+import MysteryVault from "./Components/EventDescriptions/NonTech/Reels.jsx";
+// import DeadlyDeeds from "./Components/EventDescriptions/NonTech/DeadlyDeeds.jsx";
 import Bizqueset from "./Components/EventDescriptions/Track2/Bizqueset.jsx";
 import Batallia from "./Components/EventDescriptions/Track2/Batallia.jsx";
 import TescaFlow from "./Components/EventDescriptions/Track2/TescaFlow.jsx";
@@ -47,10 +47,21 @@ import GroupDrama from "./Components/onStage/GroupDrama.jsx";
 import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
 import DumCharades from "./Components/onStage/DumCharades.jsx";
 import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
-import Adaptune from "./Components/onStage/Adaptune.jsx";
-import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx";
-import GroupDance from "./Components/onStage/GroupDance.jsx";
+import Photo from "./Components/EventDescriptions/NonTech/photography.jsx";
+import Reel from "./Components/EventDescriptions/NonTech/Reels.jsx";
+import Draw from "./Components/EventDescriptions/Track2/Drawing.jsx";
+import Cricket from "./Components/EventDescriptions/Track2/GullyCricket.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
+// import DumCharades from "./Components/onStage/DumCharades.jsx";
+import MaatriYosi from "./Components/offStage/MaatriYosi.jsx";
+import OffStageEvents from "./Components/OffStageEvents.jsx";
+import OffStage from "./Components/OffStage.jsx";
+import OruPoiSol from "./Components/offStage/OruPoiSol.jsx";
+import ReverseReading from "./Components/offStage/ReverseReading.jsx";
+import RecallRace from "./Components/offStage/RecallRace.jsx";
+import FirelessCookery from "./Components/offStage/FirelessCookery.jsx";
+import Drawing from "./Components/offStage/Drawing.jsx";
+import GullyCricket from "./Components/offStage/GullyCricket.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -83,27 +94,55 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/adaptune",
-        element: <Adaptune />,
+        element: <DumCharades />,
       },
       {
-        path: "/group-dance",
-        element: <GroupDance />,
-      },
+        path: "/adaptune",
+        element: <DumCharades />,
+      },  
       {
         path: "/hairstyle-showdown",
-        element: <HairstyleShowdown />,
+        element: <DumCharades />,
       }, 
       {
         path: "/vivadha-medai",
         element: <VivadhaMedai />,
       },  
       {
+        path:"/photography",
+        element: <Photo/>,
+      },
+      {
         path: "/vizyourway",
         element: <VizYourWay />,
       },
       {
-        path: "/energianova",
-        element: <EnergiaNova />,
+        path: "/maathiYosi",
+        element: <MaatriYosi />,
+      },
+      {
+        path: "/oruPoiSol",
+        element: <OruPoiSol />,
+      },
+      {
+        path: "/reverseReading",
+        element: <ReverseReading />,
+      },
+      {
+        path: "/recallRace",
+        element: <RecallRace />,
+      },
+      {
+        path: "/firelessCookery",
+        element: <FirelessCookery />,
+      },
+      {
+        path: "/drawing",
+        element: <Drawing />,
+      },
+      {
+        path: "/gullyCricket",
+        element: <GullyCricket />,
       },
       {
         path: "/cassedete",
@@ -126,13 +165,18 @@ const appRouter = createBrowserRouter([
         element: <CodeSprint />,
       },
       {
-        path: "/mysteryvault",
-        element: <MysteryVault />,
+        path: "/reels",
+        element: <Reel/>,
       },
       {
-        path: "/deadlydeeds",
-        element: <DeadlyDeeds />,
+        path:"/drawing",
+        element: <Draw/>,
       },
+       {
+         path: "/gullycricket",
+         element: <Cricket />,
+       },
+
       {
         path: "/mattermind",
         element: <MatterMind />,
@@ -167,7 +211,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/offstage",
-        element: <Circuit />,
+        element: <OffStage />,
       },
       {
         path: "/events/circuit-tech",

@@ -45,61 +45,48 @@ const IPL = () => {
         <h1>
           ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            IPL AUCTION - BME
+          MEMES 
           </span>
         </h1>
 
         <section className="text-gray-300 text-justify">
           <p>
-            Get ready to experience the excitement of the IPL Auction at our college symposium! Compete individually or in teams, demonstrate your cricket knowledge, and strategically build your franchise in a thrilling two-round event.
-          </p>
+          ✨ Greetings from JCE -
+          Excelsior 2025✨<br/>
+          Are you ready to unleash your creativity and bring smiles to life? 
+          🤩Join our Meme Creation Competition and showcase your wit, humor, and meme-making skills!<br/>
+          ⚡Memes creation competition⚡ 
+
+
+            </p>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Round 1
+          INSTRUCTIONS:
           </h2>
-          <ul className="list-disc list-inside mt-4">
-            <li>Participants can compete individually or in teams.</li>
-            <li>
-              A set of IPL-related questions will test knowledge about:
-              <ul className="list-disc list-inside pl-6">
-                <li>IPL history</li>
-                <li>Players and teams</li>
-                <li>Matches and records</li>
-                <li>Game strategies</li>
-              </ul>
-            </li>
-            <li>Scoring will be based on accuracy and speed.</li>
-            <li>The top 10 teams with the highest scores will advance to Round 2.</li>
-          </ul>
+          <p>
+           <strong>Rules and regulations:</strong> 
+            ✨All memes must be original content created by participants.<br/>
+            ✨ Memes must be the form  of an image.<br/>
+            ✨ Memes should not promote hate speech, violence or discrimination.<br/>
+            ✨ Participants must  submit their memes before 12.03.25 .<br/>
+            ✨ Judging criteria is based on creativity and originality of the meme.<br/>
+            ✨ The Judge's decision is  final and binding.
+</p>
+          
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Round 2
-          </h2>
-          <ul className="list-disc list-inside mt-4">
-            <li>
-              Teams will act as franchises with a budget of 100 crore virtual currency.
-            </li>
-            <li>
-              The objective is to bid for 25 players, with each player having:
-              <ul className="list-disc list-inside pl-6">
-                <li>
-                  Points assigned based on IPL performance, skills, and reputation.
-                </li>
-              </ul>
-            </li>
-            <li>Teams must use strategic planning to:</li>
-            <ul className="list-disc list-inside pl-6">
-              <li>Manage the budget wisely</li>
-              <li>Build the strongest squad possible</li>
-            </ul>
-            <li>
-              Final scores will be calculated based on the cumulative points of the players acquired by each team.
-            </li>
-          </ul>
+          For any queries: 
+          </h2>Student coordinator :<br/>
+           <strong>Swetha P</strong>:7904449070<br/>
+           <strong>Rashmi shivakumar</strong>: 
+
+
+
+          
         </section>
 
        

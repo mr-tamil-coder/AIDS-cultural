@@ -42,15 +42,20 @@ const DeadlyDeeds = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1>
-          🕵️‍♂️  
+        <h1> 
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Deadly Deeds: Mystery Unveiled
+          PHOTOGRAPHY
           </span>
         </h1>
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Join us for the <strong>Deadly Deeds</strong>: Mystery Unveiled, an engaging and interactive event where participants become detectives to solve a thrilling crime.
+          GREETING FROM JCE - EXCELSIOR'25 PRELIMS✨ <br/> <br/>
+The Jerusalem College of Engineering along with the student Council, 
+Proudly presents the <br/> <br/>
+📸 PHOTOGRAPHY 📸 <br/> <br/>
+(An online event)  <br/>
+Contest Theme: SECRETS BEHIND THE SMILE  <br/>
+Last Date for submission: March 12, 2025 
           </p>
           <p>
             Each participant receives a character profile, complete with secrets and motives, and must investigate the crime scene, gather clues, and question suspects. 

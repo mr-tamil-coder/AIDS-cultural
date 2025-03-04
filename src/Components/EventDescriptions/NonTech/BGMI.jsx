@@ -42,71 +42,56 @@ const BGMI = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1>
-          🎮  
+        <h1> 
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            BGMI Tournament
+          KAVITHAI
           </span>
         </h1>
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            Greetings from the Department of Cybersecurity! 🎮  
-            Welcome to <strong>🔥 BGMI TOURNAMENT 🔥</strong>, the ultimate showdown in the world of <strong>Battlegrounds Mobile India</strong>!  
-          </p>
-          <p>
-            Get ready to unleash your gaming prowess in this high-octane tournament, where strategy, precision, and teamwork will be your keys to victory! ⚔️  
-          </p>
-          <p>
-            As part of our college symposium, this event promises heart-pounding action, fierce competition, and a chance to claim glory. Assemble your squad, gear up, and battle for the ultimate title! 🏆
+          📜 கவிதைப் போட்டி – "புன்னகையும் அதன் ரகசியமும்" 📜  
+          ✨ உங்கள் வார்த்தைகள் புன்னகையின் ஆழத்தைக் கண்டறியட்டும்! ✨  <br/>
+          📅 நாள்: 12/03/25  <br/>
+          📂 முறை: ஆன்லைன் (Online Submission)  <br/>
           </p>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            🎯 Event Details:
+          📜 விதிமுறைகள்: 
           </h2>
-          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>📱 <strong>Platform:</strong> Battlegrounds Mobile India (BGMI)</li>
-            <li>🗺️ <strong>Game Mode:</strong> Battle Royale - Erangle</li>
-            <li>👥 <strong>Team Size:</strong> 4 Members per Squad</li>
-            <li>⚔️ <strong>Fair Play:</strong> Cheating, hacking, or bug-exploiting will result in instant disqualification</li>
-          </ul>
+          <p className="list-disc list-inside mt-4 text-body lg:text-2xl">
+          🖋 தீம்: "புன்னகையும் அதன் ரகசியமும்"<br/>
+          📖 மொழி: தமிழ் மட்டும்  <br/>
+          ✍ நீளம்: 8 - 10 வரிகள்  <br/>
+          📄 பதிவிறக்கம்: PDF/DOC ([பெயர்_கவிதை].pdf**)  <br/>
+          📩 அனுப்ப வேண்டிய மின்னஞ்சல்: excelsior@jerusalemengg.ac.in  <br/>
+          🛑 Plagiarism மற்றும் அசிங்கமான உள்ளடக்கம் அனுமதி இல்லை<br/>
+
+          </p>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            🎮 Tournament Rules:
+          🎖 மதிப்பீட்டு அடிப்படைகள்:  
           </h2>
-          <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>🎯 <strong>Battle Royale mode:</strong> Erangle</li>
-            <li>⚔️ <strong>Squad Size:</strong> Only 4 members allowed per squad</li>
-            <li>🤝 <strong>Fair Play:</strong> No cheating, hacking, or exploiting bugs</li>
-            <li>🔴 <strong>Disqualification:</strong> Instant disqualification for any unethical gameplay</li>
-          </ul>
-        </section>
 
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            🏆 Rounds and Scoring:
-          </h2>
-          <p className="text-body lg:text-2xl">Total Matches: 3 Matches</p>
-          <ul className="list-decimal list-inside mt-4 text-body lg:text-2xl">
-            <li>🥇 1st Place: 10 points</li>
-            <li>🥈 2nd Place: 6 points</li>
-            <li>🥉 3rd Place: 5 points</li>
-            <li>🏅 4th Place: 4 points</li>
-            <li>🏅 5th Place: 3 points</li>
-            <li>🏅 6th Place: 2 points</li>
-            <li>🔢 7th & 8th Place: 1 point</li>
-            <li>🚫 9th to 16th Place: 0 points</li>
-          </ul>
-          <p className="mt-4 text-body lg:text-2xl">💥 <strong>Per Kill:</strong> 1 point</p>
+          
+          <p className="mt-4 text-body lg:text-2xl">
+            - கருப்பொருளுடன் தொடர்பு  <br/>
+            - படைப்பாற்றல் & உணர்வுப்பூர்வம்  <br/>
+            - வார்த்தைகளின் அழகு  <br/>
+          </p>
         </section>
 
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <p>⚔️ Are you ready to dominate the Battlegrounds and claim victory?</p>
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+        📞 ஒருங்கிணைப்பாளர்கள்:
+        </h2>
           <p>
-            Assemble your squad, sharpen your strategy, and prepare for an unforgettable experience.
+          <strong>📍 சிவராம் S–</strong> 7598704942  <br/>
+          <strong>📍 ம்ரிதுலா R –</strong> 730597478
+
           </p>
         </section>
       </motion.div>

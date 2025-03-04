@@ -9,10 +9,18 @@ import bizqueset from "../assets/symposium/Biquest.png"
 import tescaflow from "../assets/symposium/Tescaflow.jpg"
 import cassedete from "../assets/symposium/cassedete.jpg"
 
+
+import Drawing from "../assets/Cultural/offstage/Drawing.jpg";
+import FirelessCookery from "../assets/Cultural/offstage/FirelessCookery.jpg";
+import GullyCricket from "../assets/Cultural/offstage/GullyCricket.jpg";
+import MaathiYosi from "../assets/Cultural/offstage/maathiYosi.jpg";
+import OruPoiSol from "../assets/Cultural/offstage/OruPoiSol.jpg";
+import ReverseReading from "../assets/Cultural/offstage/ReverseReading.jpg";
+import TheRecallRace from "../assets/Cultural/offstage/TheRecallRace.jpg";
 import RandomEvents from "./RandomEvents";
 import { Link } from "react-router-dom";
 
-const CircuitTec = () => {
+const   OffStageEvents = () => {
   const color = randomColor();
   const CirTech = RandomEvents("Circuit Branch - Technical Events");
 
@@ -20,54 +28,54 @@ const CircuitTec = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: energia, 
-      altText: "Energia Nova",
-      label: "Energia Nova",
+      imageSrc: MaathiYosi, 
+      altText: "MaathiYosi",
+      label: "MaathiYosi",
       path: "/maathiYosi",
       // onClick: () => alert("Energia Nova clicked"),
     },
     {
       id: 2,
-      imageSrc: cassedete, 
-      altText: "Casse-dete",
-      label: "Casse-dete",
-      path: "/cassedete",
+      imageSrc: OruPoiSol, 
+      altText: "OruPoiSol",
+      label: "OruPoiSol",
+      path: "/oruPoiSol",
     },
     {
       id: 3,
-      imageSrc: batallia, 
-      altText: "Batallia de Robots",
-      label: "Batallia de Robots",
-      path: "/batallia",
+      imageSrc: ReverseReading, 
+      altText: "reverseReading",
+      label: "reverseReading",
+      path: "/reverseReading",
     },
     {
       id: 4,
-      imageSrc: tescaflow, 
-      altText: "Tescaflow",
-      label: "Tescaflow",
-      path: "/tescaflow",
+      imageSrc: TheRecallRace, 
+      altText: "recallRace",
+      label: "recallRace",
+      path: "/recallRace",
     },
     {
       id: 5,
-      imageSrc: bizqueset, 
-      altText: "BizQuest",
-      label: "BizQueset",
-      path: "/bizqueset",
+      imageSrc: FirelessCookery, 
+      altText: "FirelessCookery",
+      label: "FirelessCookery",
+      path: "/firelessCookery",
     },
     {
-      id: 6,
-      imageSrc: Image, 
-      altText: "Drawing",
-      label: "Drawing",
-      path: "/drawing",
-    },
-    {
-      id: 7,
-      imageSrc: Image, 
-      altText: "Gully Cricket",
-      label: "Gully Cricket",
-      path: "/gullycricket",
-    },
+        id: 6,
+        imageSrc: Drawing, 
+        altText: "drawing",
+        label: "drawing",
+        path: "/drawing",
+      },
+      {
+        id: 7,
+        imageSrc: GullyCricket, 
+        altText: "GullyCricket",
+        label: "GullyCricket",
+        path: "/gullyCricket",
+      },
   ];
 
   return (
@@ -100,4 +108,4 @@ const CircuitTec = () => {
   );
 };
 
-export default CircuitTec;
+export default OffStageEvents;

@@ -45,49 +45,36 @@ const Adaptune = () => {
         <h1>
         ✨
           <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-          🎭🗣 DRAMA / MIME COMPETITION 🎭🗣
+          💃🏼🎶ADAPTUNE🕺🏼🎼
           </span>
         </h1>
 
-        <h2>
-          <span className="text-head lg:text-2xl font-bold mb-2 gradient-text">
-            Description:
-          </span>
-        </h2>
-        <p className="text-gray-300 text-body lg:text-2xl">🌟 Step Into the Spotlight! 🌟 <br />
-              The stage is set, the lights are on, and the moment is yours! <br /><br />
-              Jerusalem College of Engineering proudly presents the Drama / Mime Competition, a platform for expressive storytelling, powerful performances, and captivating stage presence. Gather your team, craft your narrative, and let your emotions speak louder than words!
-              🗓 DATE: 21/03/25 <br /> ⏰ TIME: 11:30 AM  🏢 VENUE: OAT</p>
-
+        <p className="text-gray-300 text-body lg:text-2xl">
+          <strong>💃🏼🎶ADAPTUNE COMPETITION 🕺🏼🎼</strong><br /><br />
+          ⚡Greetings from<strong> Jerusalem College of Engineering⚡*</strong><br />
+          Get ready to mesmerize ✨the audience with your dancing🕺 talent ✨
+          we are proud presents Adaptune🌟, a platform to showcase your harmony, passion, and stage presence💫
+         
+        </p>
+        <span className="text-head md:text-3xl lg:text-2.5xl font-bold mb-2 gradient-text">
+          Event Details
+        </span>
+        <ul className="list-inside text-body lg:text-2xl">
+          <li>Date: 20/03/25 🔮</li>
+          <li>Time: 12:30PM - 1:30PM ⏰</li> 
+          <li>Venue:  Auditorium 🏟</li>
+        </ul>
         {/* General Rules */}
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
           📜 RULES AND REGULATIONS 📜
           </h2>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li><b>🎭 Performance Type:</b> Participants can choose to perform either a drama or a mime.</li>
-            <li>
-              <b>⏳ Duration:</b> The performance should be between 5 to 7 minutes (including setup and exit time). Exceeding the time limit will lead to penalties.
-            </li>
-            <li><b>📞 Theme & Content:</b> <br />
-                - The content must be original, socially relevant, and free from any vulgarity, hate speech, or offensive elements. <br />
-                - Mimes must be performed without spoken words, using only expressions and body movements. <br />
-            </li>
-            <li><b>🎤 Props & Costumes: </b><br />
-                - Participants must bring their own costumes and props. <br />
-                - The use of fire, water, glass, sharp objects, or any hazardous materials is strictly prohibited. <br />
-                - Backdrops or additional setups must be simple and easy to place/remove within 1 minute.
-            </li>
-            <li>
-              <b>📻 Sound & Music: </b><br />
-              - Only instrumental or pre-recorded soundtracks are allowed. <br />
-              - Music tracks must be submitted one day before the competition. <br />
-              - Live dialogues are allowed in dramas but not in mimes.
-            </li>
-            <li><b>🏆 Judging Criteria: </b><br />
-                ⚖ The judges' decision will be final. <br />
-                🎭🗣 Unleash your emotions, captivate the audience, and bring your story to life on stage! <br />
-            </li>
+            <li>Music will be played for which the participants has to dance on the spot.</li>
+            <li>Maximum duration of music is 3 minutes.</li>
+            <li>Avoid vulgar moves or actions on the stage </li>
+            <li>Participants performance will be evaluated based on their expressions, moves with the ongoing rhythm.</li>
+            <li>Judges’ decisions are final...💯</li>
           </ul>
         </section>
 
@@ -98,22 +85,23 @@ const Adaptune = () => {
           👥 Team Size:
           </h3>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            Each team can have 7 to 9 members including actors and backstage crew
+            Event involves solo performance only.
           </ul>
 
         </section>
 
         {/* Contact Details */}
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-          STUDENT COORDINATORS:
+          <h2 className="text-xl md:text-2xl lg:text-2.5xl font-bold mb-2 gradient-text">
+          Event Coordinators
+
          </h2>
           <ul className="list-disc list-inside">
             <li>
-              <b>Mahendra U: </b>9840673391
+              <b>Amirthaa R/III/AI&ML: </b>8939612654
             </li>
             <li>
-              <b>  Aliah Ridha A: </b>7845895974
+              <b> Andrina Kjohn/ii/Ai&Ml: </b>6385618807
             </li>
           </ul>
         </section>
