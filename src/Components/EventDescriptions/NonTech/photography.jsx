@@ -76,8 +76,23 @@ Last Date for submission: March 12, 2025
             <li>🤳🏻 There must not be any border, logo(s), copyright marks.</li>
             <li>🤳🏻 Results will be declared by judges and up. </li>
           </ul>
-        </section> {/*Registration link:  https://forms.gle/yuQqDtBGEHNPuMA89 */}
-        
+        </section> {/*  */}
+        <div>
+            <h3 className="text-head md:text-xl lg:text-2xl font-semibold gradient-text">
+              For Submission:
+            </h3>
+            <p className="text-body lg:text-2xl">
+            Registration link:{" "}
+              <a
+                href="https://forms.gle/yuQqDtBGEHNPuMA89 "
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
+                Click here to Register
+              </a>
+            </p>
+          </div>
 
         <section className="text-gray-300">
           <h2>🔍
