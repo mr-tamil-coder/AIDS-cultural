@@ -25,14 +25,14 @@ const NonCircuitnTech = () => {
     {
       id: 2,
       imageSrc: vault,
-      altText: "Mystery Vault",
-      path: "/mysteryvault",
+      altText: "Reels",
+      path: "/reels",
     },
     {
       id: 3,
       imageSrc: deadly,
-      altText: "Deadly Deeds",
-      path: "/deadlydeeds",
+      altText: "Photography",
+      path: "/photography",
     },
     {
       id: 4,
