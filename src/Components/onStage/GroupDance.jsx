@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../assets/Cultural/onstage/GroupSinging.jpg";
+import EventImage from "../../assets/Cultural/onstage/GroupDance.jpg";
 
 const GroupDance = () => {
   const tiltRef = useRef(null);

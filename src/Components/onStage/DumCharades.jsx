@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
 import "./common.css";
-import EventImage from "../../assets/Cultural/onstage/MimeDrama.jpg";
+import EventImage from "../../assets/Cultural/onstage/DumbCharades.jpg";
 
 const DumCharades = () => {
   const tiltRef = useRef(null);

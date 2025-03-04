@@ -80,10 +80,9 @@ const EnergiaNova = () => {
           </h2>
 
           <p>
-          விதிகள் மற்றும் விதிமுறைகள்:<br></br>
-
-          🎤இது ஒரு நபர் கலந்து கொல்லும் போட்டி.
-          🎤கேட்கப்படும் கேள்விகளுக்கு மாறாக(சம்மந்தமின்றி) பதிலளிக்க வேண்டும்.
+          
+          🎤இது ஒரு நபர் கலந்து கொல்லும் போட்டி.<br></br>
+          🎤கேட்கப்படும் கேள்விகளுக்கு மாறாக(சம்மந்தமின்றி) பதிலளிக்க வேண்டும்.<br></br>
 
           🎤ஆங்கிலம் வார்த்தைகள் பயன்படுத்த கூடாது.<br></br>
 
@@ -94,7 +93,7 @@ const EnergiaNova = () => {
           🎤அதிக நொடிக்கு விதிமுறைகளை பின்பற்றி பேசுபவர்கள் வெற்றியாளராக தேர்ச்சிசெய்யபடுவார்.<br></br>
 
           </p>
-          <ul className="list-disc list-inside">
+          {/* <ul className="list-disc list-inside">
             <li>Abstract word limit: 100 - 150 words</li>
             <li>
               The document must include:
@@ -105,9 +104,9 @@ const EnergiaNova = () => {
               </ol>
             </li>
             <li>Accepted abstracts will be intimated to authors</li>
-          </ul>
+          </ul> */}
 
-          <h3 className="text-xl md:text-2xl lg:text-1xl font-bold mb-2 gradient-text">
+          {/* <h3 className="text-xl md:text-2xl lg:text-1xl font-bold mb-2 gradient-text">
             Round 2: Full Paper Submission
           </h3>
           <p>Authors must submit a full paper (maximum 10 pages) covering:</p>
@@ -118,8 +117,8 @@ const EnergiaNova = () => {
             <li>Results & Discussion</li>
             <li>Conclusion</li>
             <li>References</li>
-          </ul>
-
+          </ul> */}
+{/* 
           <h3 className="text-xl md:text-2xl lg:text-1xl font-bold mb-2 gradient-text">
             Round 3: Final Paper Presentation
           </h3>
@@ -136,11 +135,11 @@ const EnergiaNova = () => {
               <li>Key findings and insights</li>
               <li>Conclusion and recommendations</li>
             </ul>
-          </ul>
+          </ul> */}
         </section>
 
         
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Abstract and Paper Submission
           </h2>
@@ -155,17 +154,25 @@ const EnergiaNova = () => {
                 Click here to submit
               </a>
             </p>
-        </section>
+        </section> */}
 
         {/* Enquiry Contact Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Enquiry Contact
+          Student coordinator:
           </h2>
           <p>
-            Name: <strong>Aravinth Balaji N</strong>
+            Name: <strong>Sarika B
+            </strong>
             <br />
-            Contact: +91 63811 36008
+            Contact:7358015994
+          </p>
+          <p>
+            Name: <strong>Monish
+           
+            </strong>
+            <br />
+            Contact: 9384625915
           </p>
         </section>
       </motion.div>
