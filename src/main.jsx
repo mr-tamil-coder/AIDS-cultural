@@ -48,7 +48,7 @@ import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
 import DumCharades from "./Components/onStage/DumCharades.jsx";
 import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
 import Photo from "./Components/EventDescriptions/NonTech/photography.jsx";
-import Reels from "./Components/EventDescriptions/NonTech/Reels.jsx";
+import Reel from "./Components/EventDescriptions/NonTech/Reels.jsx";
 import Draw from "./Components/EventDescriptions/Track2/Drawing.jsx";
 import Cricket from "./Components/EventDescriptions/Track2/GullyCricket.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
@@ -132,8 +132,8 @@ const appRouter = createBrowserRouter([
         element: <CodeSprint />,
       },
       {
-        path: "/reels ",
-        element: <Reels/>,
+        path: "/reels",
+        element: <Reel/>,
       },
       {
         path:"/drawing",
