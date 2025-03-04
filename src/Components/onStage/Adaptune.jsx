@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
 import "./common.css";
-import EventImage from "../../assets/Cultural/onstage/MimeDrama.jpg";
+import EventImage from "../../assets/Cultural/onstage/Adaptune.jpg";
 
-const GroupDrama = () => {
+const Adaptune = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const GroupDrama = () => {
       >
         <img
           src={EventImage}
-          alt="GroupDrama Debugging Event"
+          alt="Adaptune Debugging Event"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -122,4 +122,4 @@ const GroupDrama = () => {
   );
 };
 
-export default GroupDrama;
+export default Adaptune;

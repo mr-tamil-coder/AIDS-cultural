@@ -4,7 +4,7 @@ import VanillaTilt from "vanilla-tilt";
 import EventImage from "../../assets/Cultural/onstage/TraditionalEthinicWear.jpg";
 import "./common.css";
 
-const MatterMind = () => {
+const GroupTraditional = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const MatterMind = () => {
       >
         <img
           src={EventImage}
-          alt="MatterMind Event"
+          alt="GroupTraditional Event"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -126,4 +126,4 @@ const MatterMind = () => {
   );
 };
 
-export default MatterMind;
+export default GroupTraditional;

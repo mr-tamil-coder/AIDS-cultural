@@ -47,7 +47,9 @@ import GroupDrama from "./Components/onStage/GroupDrama.jsx";
 import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
 import DumCharades from "./Components/onStage/DumCharades.jsx";
 import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
-// import DumCharades from "./Components/onStage/DumCharades.jsx";
+import Adaptune from "./Components/onStage/Adaptune.jsx";
+import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx";
+import GroupDance from "./Components/onStage/GroupDance.jsx";
 // import DumCharades from "./Components/onStage/DumCharades.jsx";
 const appRouter = createBrowserRouter([
   {
@@ -81,15 +83,15 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/adaptune",
-        element: <DumCharades />,
+        element: <Adaptune />,
       },
       {
-        path: "/adaptune",
-        element: <DumCharades />,
-      },  
+        path: "/group-dance",
+        element: <GroupDance />,
+      },
       {
         path: "/hairstyle-showdown",
-        element: <DumCharades />,
+        element: <HairstyleShowdown />,
       }, 
       {
         path: "/vivadha-medai",
