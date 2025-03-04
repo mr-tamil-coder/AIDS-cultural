@@ -42,6 +42,7 @@ import TeamCarousel from "./Components/TeamCarousel.jsx";
 import Online1 from "./Components/OnlineEve.jsx";
 // cultural
 import OnStage from "./Components/OnStage.jsx";
+import GroupSinging from "./Components/onStage/GroupSinging.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -57,8 +58,8 @@ const appRouter = createBrowserRouter([
         element: <EventContainer />,
       },
       {
-        path: "/eloquence",
-        element: <Eloquence />,
+        path: "/group-singing",
+        element: <GroupSinging />,
       },
       {
         path: "/vizyourway",
