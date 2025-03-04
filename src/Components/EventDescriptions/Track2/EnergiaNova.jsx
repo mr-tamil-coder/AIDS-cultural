@@ -45,35 +45,55 @@ const EnergiaNova = () => {
         <h1>
           ✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Energia Nova: Paper Presentation Competition
+          MAATRI YOSI
           </span>
         </h1>
 
-        {/* Objective Section */}
+        {/* Description Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Objective
+           Description
           </h2>
           <p>
-            "Energia Nova" is a platform for participants to showcase their
-            ability to present ideas effectively through structured and
-            impactful paper presentations. The event emphasizes critical
-            thinking, innovative approaches, and persuasive communication.
-          </p>
+          Hello everyone! 🤗 
+          ✨ Greetings from Jerusalem College of Engineering✨
+          புதுமைகள் செய்த தேசமிது
+          பூமியின் கிழக்கு வாசலிது!
+          The Jerusalem college of Engineering along with TAMIL MANDRAM proudly presents the
+          💫EXCELSIOR 2025!💫<br></br>
+          🗒நிகழ்வின் பெயர்: மாத்தியோசி<br></br>
+          🗓தேதி: 20.03.2025<br></br>
+          📍இடம்: Seminar Hall<br></br>
+           ⏰நேரம்: 11.30 to 1.00<br></br>
+          தவறாக நினைப்பதே சரியானது என்ற விளையாட்டு! 🤓
+          உங்கள் மூளையைத் திருப்ப நீங்கள் தயாரா? 😎
+           </p>
         </section>
 
-        {/* Rounds Section */}
+        {/*RULES AND REGULATIONS: Section */}
         <section className="text-gray-300">
           <h2>
             📌{" "}
             <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-              Rounds
+            RULES AND REGULATIONS:
             </span>
           </h2>
 
-          <h3 className="text-xl md:text-2xl lg:text-1xl font-bold mb-2 gradient-text">
-            Round 1: Abstract Submission
-          </h3>
+          <p>
+          விதிகள் மற்றும் விதிமுறைகள்:<br></br>
+
+          🎤இது ஒரு நபர் கலந்து கொல்லும் போட்டி.
+          🎤கேட்கப்படும் கேள்விகளுக்கு மாறாக(சம்மந்தமின்றி) பதிலளிக்க வேண்டும்.
+
+          🎤ஆங்கிலம் வார்த்தைகள் பயன்படுத்த கூடாது.<br></br>
+
+          🎤ஒரு வார்த்தையை ஒரு முறைக்கு மேல் பயன்படுத்த கூடாது.<br></br> 
+
+          🎤ஒருவருக்கு ஒரு நிமிடம் வழங்கப்படும்.<br></br>
+
+          🎤அதிக நொடிக்கு விதிமுறைகளை பின்பற்றி பேசுபவர்கள் வெற்றியாளராக தேர்ச்சிசெய்யபடுவார்.<br></br>
+
+          </p>
           <ul className="list-disc list-inside">
             <li>Abstract word limit: 100 - 150 words</li>
             <li>
@@ -119,148 +139,7 @@ const EnergiaNova = () => {
           </ul>
         </section>
 
-        {/* Themes Section */}
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Themes for Paper Submission
-          </h2>
-          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            CIVIL
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>Building Information Modeling (BIM) in construction</li>
-            <li>Advanced Traffic Management Systems</li>
-            <li>Natural Disaster Resistant Infrastructure</li>
-            <li>Modular Construction Techniques</li>
-            <li>Artificial Intelligence in Structural Engineering</li>
-          </ul>
-
-          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            BME
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>Biosignal and Image processing</li>
-            <li>Artificial Intelligence and Machine Learning in Healthcare</li>
-            <li>Rehabilitation Engineering and Biomedical Robotics</li>
-            <li>Biomaterials & Regenerative Medicine</li>
-            <li>Clinical Engineering and Health Systems</li>
-            <li>Biomaterials & Regenerative Medicine</li>
-          </ul>
-
-          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            ECE
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>Green communication</li>
-            <li>Sensors, Cloud computing and IoT</li>
-            <li>Underwater communication</li>
-            <li>Mobile and wearable applications</li>
-            <li>Signal processing and applications</li>
-            <li>Advanced Communication networks, 5G/6G and beyond</li>
-          </ul>
-
-          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            EEE
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>Smart grids and Renewable energy integration</li>
-            <li>AI and Robotics in Electrical Engineering</li>
-            <li>Role of Electric vehicle in Green Transportation</li>
-            <li>HVDC and FACTS</li>
-            <li>Batter Management Systems</li>
-            <li>MEMS and Nanotechnology</li>
-          </ul>
-
-          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            MBA
-          </h3>
-          <ul className="list-disc list-inside">
-            <li>AI interventions in HR technology</li>
-            <li>Green Marketing and E-commerce</li>
-            <li>Entrepreneurial Ecosystem</li>
-            <li>Impact of Technology on Healthcare Delivery</li>
-            <li>Financial Sustainability in Digital Era</li>
-            <li>Green Financing Components</li>
-            <li>Innovation and World of Entrepreneurship</li>
-            <li>Environmental Economics and Empowerment</li>
-            <li>Marketing through Digital Era</li>
-            <li>Optimizing Supply Chain through Management</li>
-          </ul>
-        </section>
-
-        {/* Format for Paper Presentation Section */}
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Format for Paper Presentation
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>Maximum paper size: 6</li>
-            <li>Title Format: Times New Roman, Size: 16, Bold</li>
-            <li>
-              Abstract Format: Max 200 words, Times New Roman, Size: 10, Bold
-            </li>
-            <li>Headings Format: Times New Roman, Size: 14, Bold</li>
-            <li>Paper Content Format: Times New Roman, Size: 12</li>
-          </ul>
-        </section>
-
-        {/* Paper Submission Deadlines Section */}
-        {/* <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Paper Submission Deadlines
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>Abstract Submission: 23.12.24</li>
-            <li>Notification of Acceptance: 27.12.24</li>
-            <li>Full Paper Submission: 31.12.24</li>
-          </ul>
-        </section> */}
-
-        {/* Presentation Rules Section */}
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Presentation Rules
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>8 minutes presentation + 2 minutes Q&A</li>
-            <li>PowerPoint format</li>
-            <li>Slides submission: at least 1 hour before event start time</li>
-            <li>
-              Participants must be present 30 minutes prior to scheduled
-              presentation
-            </li>
-          </ul>
-        </section>
-
-        {/* Judging Criteria Section */}
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            Judging Criteria
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>Innovation</li>
-            <li>Originality</li>
-            <li>
-              Prizes:
-              <ul className="list-disc list-inside pl-4">
-                <li>E-certificates for all</li>
-                <li>Cash prize for winners and runners-up</li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-
-        {/* General Rules Section */}
-        <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            General Rules
-          </h2>
-          <ul className="list-disc list-inside">
-            <li>Registration mandatory before deadline</li>
-            <li>Judges' decisions are final</li>
-          </ul>
-        </section>
-
+        
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             Abstract and Paper Submission

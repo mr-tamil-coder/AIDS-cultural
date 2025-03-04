@@ -29,7 +29,7 @@ const Ciniphilia = () => {
       >
         <img
           src={EventImage}
-          alt="Cinephilia Event"
+          alt="Short Film  Contest"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -45,7 +45,7 @@ const Ciniphilia = () => {
         <h1>
           🎥✨
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Cinephilia – A Fun-Filled Game for Movie Lovers
+          🎬📽 SHORT FILM CONTEST 🎬📽
           </span>
         </h1>
 
