@@ -43,24 +43,24 @@ const MysteryVault = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          🕵️  
+          
           <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            Mystery Vault
+          REELS
           </span>
         </h1>
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-            <strong>"Decode the mystery, unlock the future!"</strong>  
-            <br /> Greetings from the Department of Information Technology!  
+            <strong>"🎬Reel it to win it 🎬"</strong>  
+            <br /> Are you ready to showcase your creativity and storytelling skills.. ?! <br/> Join our EXCELSIOR'2k25 and stand a chance to win exciting prizes. !  
           </p>
-          <p>
+          {/* <p>
             We are excited to welcome you to  
             <strong> ✧･ﾟ: ✦✨ MYSTERY VAULT ✨✦:･ﾟ✧ </strong>,  
             a national-level non-technical event designed to test your ingenuity, collaboration, and technical acumen.
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             Gear up to dive into a series of exciting rounds, solve mysteries, and prove your mettle against the brightest minds!
-          </p>
+          </p> */}
         </section>
 
         <section className="text-gray-300">
@@ -68,33 +68,35 @@ const MysteryVault = () => {
             Rules & Regulations:
           </h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li>🍂 Participants can register individually or in teams of two.</li>
-            <li>🍂 Follow the rules and adhere to the instructions for each round.</li>
-            <li>🍂 Fair play is paramount—unethical behavior will lead to disqualification.</li>
-            <li>🍂 Winners of each round advance to the next stage.</li>
-            <li>🍂 Judges' decisions will be final and binding.</li>
+            <li>Online registration is mandatory.</li>
+            <li>Duration is min. 25 sec to max.</li>
+            <li>One reel for one participant.</li>
+            <li>Videos will be posted on our Instagram page.</li>
+            <li>Results will be based on likes.</li>
+            <li>Send your video with name, department and year.</li>
+
           </ul>
         </section>
 
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            🍂 Round 1: Pick the Ball & Arrange the Puzzle
+            Note:
           </h2>
-          <p className="text-body lg:text-2xl"><strong>Task:</strong></p>
+          
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Use a pen to pick up balls (one at a time) from a container.</li>
-            <li>Each ball has a letter, number, or symbol.</li>
-            <li>Arrange the balls to begin puzzle solving.</li>
+            <li>18+ content strictly not allowed.</li>
+            <li> Video should not contain any vulgarity.</li>
+            <li>Fake likes lead to disqualification.</li>
           </ul>
-          <p className="mt-4 text-body lg:text-2xl"><strong>✅ Rules:</strong></p>
+          {/* <p className="mt-4 text-body lg:text-2xl"><strong>✅ Rules:</strong></p>
           <ul className="list-disc list-inside text-body lg:text-2xl">
             <li>No direct hand contact with the balls; only pens should be used.</li>
             <li>A time limit of 1 minute is given to participants.</li>
             <li>You should not drop the ball more than three times.</li>
-          </ul>
+          </ul> */}
         </section>
 
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
             🍂 Round 2: Taste & Tell the Tech Word
           </h2>
@@ -117,12 +119,25 @@ const MysteryVault = () => {
           <p>
             Let the <strong>MYSTERY VAULT</strong> unveil the genius within you!  
           </p>
-        </section>
+        </section> */}
 
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <p className="text-center font-bold">
             Best Regards,  
             <br /> Department of Information Technology  
+          </p>
+        </section> */}
+
+<section className="text-gray-300">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
+            For Enquiry:
+          </h2>
+          <p className="text-body lg:text-2xl">
+            Contact: <br /> 
+            <strong>Pragathy R.V :</strong> +91 9025058007
+            <br />
+            <strong>Deepika. R :</strong> +91 7338820508
+            <br />
           </p>
         </section>
       </motion.div>

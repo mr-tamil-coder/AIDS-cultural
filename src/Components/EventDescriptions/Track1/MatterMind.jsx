@@ -44,74 +44,83 @@ const MatterMind = () => {
       >
         <h1>
           💡✨
-          <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-            ⚜️ MATTERMIND ⚜️
+          <span className="text-head lg:text-3xl font-bold mb-4 text-center lg:text-left gradient-text">
+            ⚜️GROUP TRADITIONAL ETHNIC WEAR ⚜️
           </span>
         </h1>
+        <h2>
+          <span className="text-head lg:text-2xl font-bold mb-4 text-center lg:text-left gradient-text">
+            Description:
+       </span>
+       <h3> 
+              With great pride, we cordially invite you to a day of creativity
+              ✨ EXCELSIOR 2025! ✨
+              Step into India’s rich cultural heritage with the Traditional Ethnic Wear Group Ramp Walk! 
+              Join us in this vibrant celebration where every step tells a story of culture, elegance, and heritage! <br /><br />
+              🗒Event Name: Traditional  Ethnic Wear <br />
+              🗓Date: 20.03.2025 <br />
+              📍Venue: Open Air Auditorium <br />
+              ⏰Time: 1.30 to 2.30 <br />
+            </h3>
+       </h2>
 
-        <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <h2>Round 1 - Trick 'O Tick ✅</h2>
-          <p>An quiz on computer basics and algorithms</p>
-        </section>
 
-        <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <h2>Round 2 - 📸 Pixel Craft 🏜️</h2>
-          <p>
-            Objective: Participants must craft a prompt to generate an image
-            using an AI tool that matches the provided source image as closely
-            as possible.
-          </p>
-          <ul className="list-disc list-inside mt-4">
+           
+
+
+       <span>
+        <h2  className="text-head lg:text-2xl font-bold mb-4 text-center lg:text-left gradient-text">Team Size:</h2>
+        <p  className="text-gray-300 text-justify text-body lg:text-2xl">📌 Each team can have a maximum of 5 members.
+        </p>
+        </span>
+      
+        
+
+
+        <section  className="text-head lg:text-2xl font-bold mb-4 text-center lg:text-left gradient-text">
+          <h2> 📜 Rules and regulations 📜</h2>
+          </section>
+          <ul  className="text-gray-300 text-justify text-body lg:text-2xl">
             <li>
-              Tool: Only the specified AI tool provided by the organizers can
-              be used.
             </li>
             <li>
-              📌 Use the given AI tool to craft prompts and generate an image
-              matching the source image.
+            📌 Teams must choose one Indian cultural or religious theme and stick to it.
             </li>
             <li>
-              📌 Submit your prompt and generated image within the given time.
+              📌 Outfits should be traditional, culturally appropriate, and respectful of Indian heritage.
             </li>
             <li>
-              📌 Judging is based on relevance, creativity, and accuracy.
+              📌 Total time for each group is 30 seconds to 45 seconds and should not exceed 45 minutes. 
             </li>
-            <li>📌 No external edits or plagiarized prompts are allowed.</li>
+            <li>
+              📌 Background music or karaoke must be submitted 5 days before the event in the required format.
+            </li>
+            <li>
+            📌 The ramp walk should be graceful, synchronized, and theme-aligned.
+            </li>
+            <li>
+            📌 Props and accessories are allowed but should not obstruct movement or pose a safety risk.
+            </li>
+            <li>
+            📌 Teams must report on time for rehearsals and the main event.
+            </li>
+            <li>
+            📌 Maintain decorum, respect all cultures, and avoid offensive gestures.
+            </li>
+            <li>
+            📌 Judging will be based on authenticity, confidence, creativity, and overall presentation.
+            </li>
           </ul>
-        </section>
-
-        <section className="text-gray-300 text-justify text-body lg:text-2xl">
-          <h2>Round 3 - Unwrap the code 👩‍💻</h2>
-          <ul className="list-disc list-inside mt-4">
-            <li>
-              🔸 Setup: We display a specific output along with some hints to
-              help to reconstruct the original input or code in a time
-              constraint.
-            </li>
-            <li>
-              🔸 Workflow: Using the hints, participants must logically
-              reverse-engineer the code or deduce the correct inputs that could
-              generate the given output.
-            </li>
-            <li>
-              📌 Target: The goal is to correctly identify the inputs or code
-              that produces the given output in the shortest time.
-            </li>
-          </ul>
-        </section>
+       
         <section className="text-gray-300">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-            For Enquiry:
+          <h2 className="text-xl md:text-2xl lg:text-2xl font-bold mb-2 gradient-text">
+          STUDENT COORDNATORS:
           </h2>
           <p className="text-body lg:text-2xl">
-            Contact: <br />
-            <strong>Prakash Rai :</strong> +919150509625
-            <br />
+            <strong>Ms.MIRUTHULA A ,IV year</strong> <br />
+            <strong> Mr.MADESH S,II year:</strong> 6380069316
           </p>
         </section>
-        <footer className="text-gray-300 mt-4">
-          <p className="text-left">Let the challenge begin!</p>
-        </footer>
       </motion.div>
     </div>
   );
