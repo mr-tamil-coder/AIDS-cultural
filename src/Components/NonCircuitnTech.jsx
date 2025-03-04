@@ -2,13 +2,16 @@ import React from "react";
 import "../text.css"; // Ensure this file contains any other necessary styling
 import Card from "./Card";
 import Image from "../utils/Img/TechLogo.jpg";
-import bgmi from "../assets/symposium/BGMI_FINAL.jpg";
-import ff from "../assets/symposium/NewFreeFire.jpg";
-import cini from "../assets/symposium/Cinephilia.jpg";
-import vault from "../assets/symposium/MysteryVault.jpeg";
-import deadly from "../assets/symposium/deadly.png";
 import randomColor from "randomcolor";
-import iplauction from "../assets/symposium/iplauction.jpg"
+import Film from "../assets/Cultural/online/ShortFilm.jpg";
+import EssayTamil from "../assets/Cultural/online/EssayTamil.jpg";
+import EssayEnglish from "../assets/Cultural/online/EssayEnglish.jpg";
+import Kavithai from "../assets/Cultural/online/Kavithai.jpg";
+import Meme from"../assets/Cultural/online/MemeCompetition.jpg";
+import Photo from "../assets/Cultural/online/Photography.jpg";
+import Reel from "../assets/Cultural/online/Reels.jpg";
+
+
 
 import { Link } from "react-router-dom";
 // import "./NonCircuitnTech.css";
@@ -18,40 +21,46 @@ const NonCircuitnTech = () => {
   const circuittechnicalEvents = [
     {
       id: 1,
-      imageSrc: cini,
+      imageSrc: Film,
       altText: "Cinephilia",
       path: "/cinephilia",
     },
     {
       id: 2,
-      imageSrc: vault,
-      altText: "Reels",
+      imageSrc: Reel,
+      altText: "reels",
       path: "/reels",
     },
     {
       id: 3,
-      imageSrc: deadly,
+      imageSrc: Photo,
       altText: "Photography",
       path: "/photography",
     },
     {
       id: 4,
-      imageSrc: iplauction,
+      imageSrc: Meme,
       altText: "IPL Auction",
       path: "/iplauction",
     },
     {
       id: 5,
-      imageSrc: bgmi,
+      imageSrc: Kavithai,
       altText: "BGMI",
       path: "/bgmi",
     },
     {
       id: 6,
-      imageSrc: ff,
+      imageSrc: EssayTamil,
       altText: "Free Fire",
       path: "/ff",
     },
+    {
+      id: 7,
+      imageSrc: EssayEnglish,
+      altText: "Free Fire",
+      path: "/essayeng",
+    }
   ];
 
   return (
