@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react"; 
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../assets/Cultural/offstage/FirelessCookery.jpg"; // Replace with your actual image
+import EventImage from "../../assets/Cultural/offstage/GullyCricket.jpg"; // Replace with your actual image
 import "./common.css";
 
 const GullyCricket = () => {
@@ -43,60 +43,48 @@ const GullyCricket = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">🍽🔥FIRELESS COOKING COMPETITION🔥🍽  </span>
+          <span className="text-3xl lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text"> GULLY CRICKET  </span>
         </h1>
         <section className="text-gray-300 text-justify text-body lg:text-2xl">
           <p>
-          Unleash your inner chef and create mouthwatering dishes—without fire! 🌟✨<strong>Jerusalem College of Engineering</strong> presents the <strong>Fireless</strong> Cooking Competition, a fun and innovative event where creativity meets taste. 
-          </p>
-          <p>
-          🍉🥗 Assemble, blend, and plate your way to victory using only raw ingredients. Gather your team and let your culinary skills shine! 🍛🎨🔥
-          </p>
-          
+         <strong>✨ Excelsior_2k25 warm greetings </strong> The Jerusalem college of engineering along with the students council, proudly presents the
+          GULLY CRICKET 🏏<br></br>
+          <br></br>
+          <strong>Date: 20 March 2025</strong>
+           </p>
         </section>
-        <section className="text-gray-300">
+        {/* <section className="text-gray-300">
           <h2>🛠️ 
           <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
               📅Event Details:
           </span></h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li><strong>Date:</strong> 20/03/25 📅</li>
-            <li><strong>Time:</strong> 10:30-11:30 PM⏰</li>
-            <li><strong>Venue:</strong>  Seminar Hall-3rd Floor🏡</li>
+            <li><strong>Date:</strong> 20 March 2025 📅</li>
             
           </ul>
-        </section> 
+        </section>  */}
 
         {/* Rules and Regulations Section */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">Rules and Regulations</h2>
           <ul className="list-disc list-inside mt-4 text-body lg:text-2xl">
-            <li><strong>👥Team Size:</strong> Each team must have 2 members. 👩‍🍳👨‍🍳.</li>
-            <li><strong>📢Eligibility:</strong> The competition is open to all students. 💡⚡</li>
-            <li><strong>🥣Dish Preparation:</strong> Only fireless cooking methods (chopping, blending, assembling, etc.) are allowed. 🔪🍓</li>
-            <li><strong>⏳Time Limit:</strong> Participants will get 40 minutes to prepare their dish. ⏱</li>
-            <li><strong>📝Ingredients: </strong> Participants must bring their own ingredients. Only pre-approved ingredients are allowed. 🍲✨</li>
-            <li><strong>🚫Prohibited Items:</strong> The use of electrical appliances such as induction stoves, ovens, or heaters is not allowed. ❌⚡</li>
-            <li><strong>🍛Presentation: </strong> The dish should be well-plated, with a name and a short explanation of its health benefits. 🎨✨</li>
-            <li><strong>🏆Judging Criteria: </strong> Taste, Creativity, Presentation, and Health Factor. The judge’s decisions are final and binding. ✅⚖</li>
+            <p>✨  Each team should have only 3 members.</p>
+            <p>✨Each team will be allowed to play for 2 overs.</p>
+            <p>✨The ball should pitch once on the ground when the bowler bowls.</p>
+            <p>✨The ball should pitch at least once on the ground and hit the boundary, then it will be considered 1 point.</p>
+            <p>✨If the bowling team catches the ball, then the batsman will be out.</p>
+            <p>✨ Umpire's decision will be final.</p>
           </ul>
         
         </section>
-        
-       
-
-          <section className="text-gray-300 text-justify text-body lg:text-2xl">
-            <p>✨🍓🥗 Showcase your culinary skills, think outside the stove, and let your dish steal the show! Sign up now and be a part of this exciting event! 🎉🔥</p>
-            <p>Sign up now and cook up a masterpiece! 👩‍🍳👨‍🍳</p></section>
-
           <section className="text-gray-300">
           <h2>
           <span className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
           Student Coordinators:
           </span></h2>
           <ul className="list-disc list-inside mt-2 text-body lg:text-2xl">
-            <li>Dhanvanth Gandhi G, iii Year ( 9790731555 )📞</li>
-            <li> Ms.Sharon Zacharia, ii Year (9894023966)📞</li>
+            <li>Mr.Lokesh Y- (7448879644) ECE 3yr 📞</li>
+            <li> Ms.Vidhya G -(7200216497) ECE 2yr📞</li>
           </ul></section>
 
 

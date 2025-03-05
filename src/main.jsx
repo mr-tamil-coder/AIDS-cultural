@@ -46,7 +46,7 @@ import GroupSinging from "./Components/onStage/GroupSinging.jsx";
 import GroupDrama from "./Components/onStage/GroupDrama.jsx";
 import GroupTraditional from "./Components/onStage/GroupTraditional.jsx"
 import DumCharades from "./Components/onStage/DumCharades.jsx";
-import VivadhaMedai from "./Components/onStage/DumCharades.jsx";
+import VivadhaMedai from "./Components/onStage/VivadhaMedai.jsx";
 import Photo from "./Components/EventDescriptions/NonTech/photography.jsx";
 import Reel from "./Components/EventDescriptions/NonTech/Reels.jsx";
 import Draw from "./Components/EventDescriptions/Track2/Drawing.jsx";

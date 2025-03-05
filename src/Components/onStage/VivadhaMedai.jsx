@@ -29,7 +29,7 @@ const VivadhaMedai = () => {
       >
         <img
           src={EventImage}
-          alt="VivadhaMedai Debugging Event"
+          alt="Vivadha Medai Event"
           className="w-3/4 md:w-2/3 lg:w-2/3 object-cover rounded-lg shadow-lg"
         />
       </motion.div>
@@ -43,9 +43,9 @@ const VivadhaMedai = () => {
         transition={{ duration: 0.8 }}
       >
         <h1>
-        ✨
+          ✨
           <span className="text-head lg:text-4xl font-bold mb-4 text-center lg:text-left gradient-text">
-          🎭🗣 DRAMA / MIME COMPETITION 🎭🗣
+            📝✍ தமிழ் விவாதம் - விவாத மேடை ✍📝
           </span>
         </h1>
 
@@ -54,66 +54,42 @@ const VivadhaMedai = () => {
             Description:
           </span>
         </h2>
-        <p className="text-gray-300 text-body lg:text-2xl">🌟 Step Into the Spotlight! 🌟 <br />
-              The stage is set, the lights are on, and the moment is yours! <br /><br />
-              Jerusalem College of Engineering proudly presents the Drama / Mime Competition, a platform for expressive storytelling, powerful performances, and captivating stage presence. Gather your team, craft your narrative, and let your emotions speak louder than words!
-              🗓 DATE: 21/03/25 <br /> ⏰ TIME: 11:30 AM  🏢 VENUE: OAT</p>
+        <p className="text-gray-300 text-body lg:text-2xl">
+          🌟 ஜெருசலேம் பொறியியல் கல்லூரியில் 💫 நடைபெறும் தமிழ் விவாதம் 💥 என்பது மாணவர்கள் கொடுக்கப்பட்ட தலைப்பில் தங்கள் கருத்துக்களை கட்டமைக்கப்பட்ட முறையில் விவாதிக்கவும், தங்களுக்கு சாதகமாக உரையாடவும் ஒரு மேடையாகும்.💖 இந்த நிகழ்வு மாணவர்களின் நுண்ணறிவு சிந்தனை, பொதுநடை உரை, மற்றும் தர்க்கரீதியான மனப்பாங்கை மேம்படுத்துகிறது.💖
+        </p>
 
-        {/* General Rules */}
+        <h3 className="text-gray-300 text-lg md:text-xl lg:text-2xl font-bold mt-4 gradient-text">
+          📌 தலைப்பு: "முகாமில் காணப்படும் மையப் பிரச்சினை."
+        </h3>
+
+        {/* Rules */}
         <section className="text-gray-300">
           <h2 className="text-head md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-          📜 RULES AND REGULATIONS 📜
+            📜 நியமங்கள் 📜
           </h2>
           <ul className="list-disc list-inside text-body lg:text-2xl">
-            <li><b>🎭 Performance Type:</b> Participants can choose to perform either a drama or a mime.</li>
-            <li>
-              <b>⏳ Duration:</b> The performance should be between 5 to 7 minutes (including setup and exit time). Exceeding the time limit will lead to penalties.
-            </li>
-            <li><b>📞 Theme & Content:</b> <br />
-                - The content must be original, socially relevant, and free from any vulgarity, hate speech, or offensive elements. <br />
-                - Mimes must be performed without spoken words, using only expressions and body movements. <br />
-            </li>
-            <li><b>🎤 Props & Costumes: </b><br />
-                - Participants must bring their own costumes and props. <br />
-                - The use of fire, water, glass, sharp objects, or any hazardous materials is strictly prohibited. <br />
-                - Backdrops or additional setups must be simple and easy to place/remove within 1 minute.
-            </li>
-            <li>
-              <b>📻 Sound & Music: </b><br />
-              - Only instrumental or pre-recorded soundtracks are allowed. <br />
-              - Music tracks must be submitted one day before the competition. <br />
-              - Live dialogues are allowed in dramas but not in mimes.
-            </li>
-            <li><b>🏆 Judging Criteria: </b><br />
-                ⚖ The judges' decision will be final. <br />
-                🎭🗣 Unleash your emotions, captivate the audience, and bring your story to life on stage! <br />
-            </li>
+            <li>முதல் சுற்றில் இருந்து இரு குழுக்கள் இரண்டாவது சுற்றுக்கு தகுதி பெறுவர்.</li>
+            <li>ஒவ்வொரு உறுப்பினருக்கும் அதிகபட்சமாக நேரம் ஒதுக்கப்படும்.</li>
+            <li>பதிலளிப்பு சுற்றுக்கு ஒரு நிமிடம் ஒதுக்கப்படும்.</li>
+            <li>தமிழ் மொழியில் மட்டுமே பேச வேண்டும்.</li>
+            <li>நடுவர்களின் முடிவே இறுதி முடிவாகும்.</li>
+            <li>பங்கேற்பாளர்கள் பதிவு இணைப்பை பூர்த்தி செய்ய வேண்டும்.</li>
+            <li>இடத்தில் நேரடி பதிவுகள் அனுமதிக்கப்படாது.</li>
+            <li>தகாத வார்த்தைகளை தவிர்த்திட வேண்டும்.</li>
           </ul>
-        </section>
-
-        {/* Round 2 */}
-        <section className="text-gray-300">
-
-          <h3 className="text-lg md:text-xl lg:text-2xl font-bold mt-4 gradient-text">
-          👥 Team Size:
-          </h3>
-          <ul className="list-disc list-inside text-body lg:text-2xl">
-            Each team can have 7 to 9 members including actors and backstage crew
-          </ul>
-
         </section>
 
         {/* Contact Details */}
         <section className="text-gray-300">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 gradient-text">
-          STUDENT COORDINATORS:
-         </h2>
+            தொடர்பு கொள்ள:
+          </h2>
           <ul className="list-disc list-inside">
             <li>
-              <b>Mahendra U: </b>9840673391
+              <b>திரு. சூர்யா எஸ்: </b>+91 80724 06199
             </li>
             <li>
-              <b>  Aliah Ridha A: </b>7845895974
+              <b>திரு. தேவேஷ் குமார் எம்: </b>+91 82488 39401
             </li>
           </ul>
         </section>

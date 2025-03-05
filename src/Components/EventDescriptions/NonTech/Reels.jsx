@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import MysteryVaultImage from "../../../assets/symposium/MysteryVault.jpeg";
+import MysteryVaultImage from "../../../assets/Cultural/online/Reels.jpg";
 import "./MysteryVault.css";
 
 const MysteryVault = () => {

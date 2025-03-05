@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
-import EventImage from "../../../assets/symposium/Cinephilia.jpg";
+import EventImage from "../../../assets/Cultural/online/ShortFilm.jpg";
 import "./MysteryVault.css";
 
-const Ciniphilia = () => {
+const ShortFilm = () => {
   const tiltRef = useRef(null);
 
   useEffect(() => {
@@ -133,4 +133,4 @@ const Ciniphilia = () => {
   );
 };
 
-export default Ciniphilia;
+export default ShortFilm;
