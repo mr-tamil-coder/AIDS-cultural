@@ -21,8 +21,7 @@ import "animate.css";
 import { Link } from "react-router-dom";
 import Carousel from "./Carousel";
 import OverallGuest from "./OverallGuest";
-import Carousel1 from "./Carousel1";
-
+import VideoCarousel from "./VideoCarousel";
 const Body = () => {
   // const [loading, setLoading] = useState(true);
 
@@ -41,19 +40,17 @@ const Body = () => {
   return (
     <div>
       <div className="mt-small">
-      <CollegeName />
-      <div className="flex flex-wrap justify-center gap-5 my-5 animate__animated animate__fadeInUp duration-500">
-        <Link to="/events">
-          <NeonButton label="Explore" />
-        </Link>
+        <CollegeName />
+       
+
+        {/* <CountdownTimer /> */}
       </div>
 
-      <CountdownTimer />
-      </div>
-      
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       <NewAbout />
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
+      <h2 className="text-3xl font-bold text-center text-white mb-6">Chief Guest</h2>
+      <VideoCarousel />
       {/* <HomeEventDetails />
       <InfoSections />
       <TeamCarousel /> */}

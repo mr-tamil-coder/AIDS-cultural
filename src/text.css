@@ -1,32 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Nerko+One&family=Roboto+Slab:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Nerko+One&family=Roboto+Slab:wght@100..900&display=swap");
 
 @font-face {
-  font-family: 'otherfont';
-  src: url('/fonts/kanit-ExtraBold.ttf') format('truetype');
+  font-family: "otherfont";
+  src: url("/fonts/kanit-ExtraBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-
 @font-face {
-    font-family: 'collegefont';
-    src: url('/fonts/Game Of Squids.woff2') format('woff2'),
-         url('/fonts/Game Of Squids.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-  font-family: 'timerfont';
-  src: url('/fonts/digital-7.ttf') format('truetype');
+  font-family: "collegefont";
+  src: url("/fonts/Game Of Squids.woff2") format("woff2"),
+    url("/fonts/Game Of Squids.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'aboutfont';
-  src: url('/fonts/Revamped.otf') format('opentype');
+  font-family: "timerfont";
+  src: url("/fonts/digital-7.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "aboutfont";
+  src: url("/fonts/Revamped.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   /* font-display: swap; */
@@ -38,7 +37,6 @@
   font-style: normal;
   font-display: swap;
 } */
-
 
 /* .college-font {
   font-family: 'collegefont', sans-serif;
@@ -71,7 +69,6 @@
   background: linear-gradient(to right, #160142, #010224);
 }
 
-
 .event-text {
   font-family: "Protest Guerrilla", sans-serif;
   font-weight: 400;
@@ -103,7 +100,6 @@
   animation: slide-down 0.5s ease-in-out;
 }
 
-
 .text-gradient {
   background-clip: text;
   color: transparent;
@@ -111,9 +107,15 @@
 }
 
 @keyframes gradientBackground {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .glow-neon {
@@ -123,4 +125,5 @@
 @media (max-width: 640px) {
   .mt-small {
     margin-top: 20px; /* Change this value as needed */
-  }}
+  }
+}

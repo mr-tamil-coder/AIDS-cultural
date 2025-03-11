@@ -9,7 +9,6 @@ import Body from "./Components/Body.jsx";
 import TechEvent from "./Components/TechEvent.jsx";
 import EventContainer from "./Components/EventContainer.jsx";
 import EventDetails from "./Components/EventDetails.jsx";
-import Home from "./Components/Home.jsx";
 import About from "./Components/About.jsx";
 import Circuit from "./Components/Circuit.jsx";
 import CircuitTec from "./Components/CircuitTec.jsx";
@@ -262,10 +261,7 @@ const appRouter = createBrowserRouter([
         path: "/events/tech/:id",
         element: <EventDetails />,
       },
-      {
-        path: "/home",
-        element: <Home />,
-      },
+   
       {
         path: "/contact",
         element: <Contact />,
