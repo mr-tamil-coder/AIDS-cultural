@@ -30,7 +30,7 @@ const VideoCarousel = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto mt-6">
+    <div className="w-full max-w-4xl mx-auto my-6 ">
       <Swiper
         navigation={true}
         modules={[Navigation]}

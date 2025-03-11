@@ -48,8 +48,8 @@ const Body = () => {
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       <NewAbout />
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
-      <div className="flex justify-center items-center h-24 p-6">
-        <h2 className="text-6xl font-extrabold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 drop-shadow-xl font-[Poppins]">
+      <div className="flex justify-center items-center h-24 p-4 sm:h-32 sm:p-6">
+        <h2 className="text-4xl sm:text-6xl font-extrabold uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 drop-shadow-lg font-[Poppins] text-center">
           Celebrity Guests
         </h2>
       </div>
