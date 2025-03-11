@@ -22,6 +22,7 @@ import { Link } from "react-router-dom";
 import Carousel from "./Carousel";
 import OverallGuest from "./OverallGuest";
 import VideoCarousel from "./VideoCarousel";
+import ImgCarousel from "./ImgCarousel";
 const Body = () => {
   // const [loading, setLoading] = useState(true);
 
@@ -53,7 +54,7 @@ const Body = () => {
           Celebrity Guests
         </h2>
       </div>
-
+      <ImgCarousel/>
       <VideoCarousel />
       {/* <HomeEventDetails />
       <InfoSections />
