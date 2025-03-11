@@ -41,7 +41,6 @@ const Body = () => {
     <div>
       <div className="mt-small">
         <CollegeName />
-       
 
         {/* <CountdownTimer /> */}
       </div>
@@ -49,7 +48,12 @@ const Body = () => {
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
       <NewAbout />
       <hr className="border-t-2 border-gray-400 w-3/4 mx-auto my-10" />
-      <h2 className="text-3xl font-bold text-center text-white mb-6">Chief Guest</h2>
+      <div className="flex justify-center items-center h-24 p-6">
+        <h2 className="text-6xl font-extrabold uppercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500 drop-shadow-xl font-[Poppins]">
+          Celebrity Guests
+        </h2>
+      </div>
+
       <VideoCarousel />
       {/* <HomeEventDetails />
       <InfoSections />
