@@ -64,7 +64,6 @@ import GroupDance from "./Components/onStage/GroupDance.jsx";
 import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx"
 import Adaptune from "./Components/onStage/Adaptune.jsx"
 import EssayEng from "./Components/EventDescriptions/NonTech/EssayEng.jsx"
-import Venue from "./Components/Venue.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -277,10 +276,6 @@ const appRouter = createBrowserRouter([
       {
         path: "/online",
         element: <Online1/>,
-      },
-      {
-        path: "/venue",
-        element: <Venue/>,
       },
     ],
   },
