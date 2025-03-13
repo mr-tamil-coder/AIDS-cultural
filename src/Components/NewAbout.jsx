@@ -37,7 +37,7 @@ const NewAbout = () => {
           <div className="md:w-[60%] w-full text-lg leading-relaxed text-justify px-4">
             <p>
            
-      Excelsior'25 is the epitome of innovation and collaboration, designed to foster creativity, ignite ideas, and push the boundaries of technology. With a focus on modern advancements, it stands as a beacon for tech enthusiasts, paving the way for a future driven by knowledge and passion.
+      Excelsior 2025 is the epitome of innovation and collaboration, designed to foster creativity, ignite ideas, and push the boundaries of technology. With a focus on modern advancements, it stands as a beacon for tech enthusiasts, paving the way for a future driven by knowledge and passion.
             </p>
             <p className="mt-4">
             <p className="mt-4">

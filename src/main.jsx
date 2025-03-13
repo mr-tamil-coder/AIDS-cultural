@@ -9,7 +9,6 @@ import Body from "./Components/Body.jsx";
 import TechEvent from "./Components/TechEvent.jsx";
 import EventContainer from "./Components/EventContainer.jsx";
 import EventDetails from "./Components/EventDetails.jsx";
-import About from "./Components/About.jsx";
 import Circuit from "./Components/Circuit.jsx";
 import CircuitTec from "./Components/CircuitTec.jsx";
 import CircuitnTech from "./Components/CircuitnTech.jsx";
@@ -65,6 +64,7 @@ import GroupDance from "./Components/onStage/GroupDance.jsx";
 import HairstyleShowdown from "./Components/onStage/HairstyleShowdown.jsx"
 import Adaptune from "./Components/onStage/Adaptune.jsx"
 import EssayEng from "./Components/EventDescriptions/NonTech/EssayEng.jsx"
+import Venue from "./Components/Venue.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -277,6 +277,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/online",
         element: <Online1/>,
+      },
+      {
+        path: "/venue",
+        element: <Venue/>,
       },
     ],
   },

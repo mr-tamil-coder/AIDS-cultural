@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import NeonButton from "./NeonButton";
 // CountdownTimer Component
 const CountdownTimer = () => {
@@ -177,11 +177,12 @@ const CollegeName = () => {
         >
           <hr className="border-t border-purple-300 w-24 mx-auto opacity-50" />
           <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2   text-lg sm:text-xl md:text-2xl font-bold px-4 ">
-            PRESENTS
+            Inter College Cultural Fest
           </span>
+          
           <hr className="border-t border-purple-300 w-24 mx-auto opacity-50" />
         </motion.div>
-
+      
         {/* Event Name */}
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
@@ -223,8 +224,7 @@ const CollegeName = () => {
           animate={{ opacity: isVisible ? 1 : 0 }}
           transition={{ duration: 1, delay: 2.5 }}
           className="mt-8 text-lg md:text-xl text-purple-100 font-light tracking-wide max-w-lg mx-auto"
-        >
-        </motion.p>
+        ></motion.p>
 
         {/* Integrate Countdown Timer here */}
         <CountdownTimer />

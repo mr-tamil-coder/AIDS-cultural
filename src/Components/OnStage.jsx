@@ -6,9 +6,15 @@ import { Link } from "react-router-dom";
 import TrackInfo from "./TrackInfo";
 import img from "../assets/symposium/overallPoster.jpg";
 import OnStageEvents from "./OnStageEvents";
+import { AlertTriangle, Calendar, Clock } from "lucide-react";
+
 const OnStage = () => {
   return (
     <div>
+      <marquee behavior="scroll" direction="" className="mt-8 text-red-500">
+        <AlertTriangle size={18} className="text-red-500 inline-block mx-3 " />
+        Registration Deadline: 14 - 03 - 2025
+      </marquee>
       <TrackInfo
         label="OnStage"
         Image={img}
