@@ -129,7 +129,7 @@ const Header = () => {
       <Link
         to="/venue"
         className={`font-collegefont block py-2 px-3 rounded md:bg-transparent md:p-0 ${
-          currentPath === "/contact" ? "text-[#fc03e3] bg-gradient-to-br from-[#fc03e3] to-[#a6033c] bg-clip-text text-transparent" : "text-white"
+          currentPath === "/venue" ? "text-[#fc03e3] bg-gradient-to-br from-[#fc03e3] to-[#a6033c] bg-clip-text text-transparent" : "text-white"
         } hover:bg-gradient-to-br hover:from-[#fc03e3] hover:to-[#a6033c] hover:bg-clip-text hover:text-transparent`}
         onClick={() => {
           closeMenu();
